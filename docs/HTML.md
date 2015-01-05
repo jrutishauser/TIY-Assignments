@@ -131,3 +131,37 @@ s p a c e d
 <br>
 <p>OMG no wayyyyyy</p>
 </div>
+
+### 7. '<address>' -- supply contact info for nearest article
+
+* *type:* block-level
+* *content:* Flow content[1]
+* *support:* all browsers
+* *example:*
+```
+<address>
+visit me at:<br>
+123 derp street<br>
+orlando, FL 32828</br>
+</address>
+```
+<address>
+visit me at:<br>
+123 derp street<br>
+orlando, FL 32828</br>
+</address>
+
+### 8. '<noscript>' -- section of HTML to be inserted if script type is unsupported or disabled
+
+* *type:* block-level
+* *content:* Flow content[1] phrasing content[2] metadata content [3]
+* *support:* all browsers
+* *example:*
+```
+<noscript>
+<p>yo dawg enable some scripts or get a new browser</p>
+</noscript>
+```
+<noscript>
+<p>yo dawg enable some scripts or get a new browser</p>
+</noscript>
