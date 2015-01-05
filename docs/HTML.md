@@ -1,4 +1,4 @@
-### 1. '<hr>' -- horizontal rule (dividing line)
+### 1. `<hr>` -- horizontal rule (dividing line)
 
 * *type:* block-level
 * *content:* none, empty element
@@ -13,7 +13,7 @@
 <hr>
 <p>text down under</p>
 
-### 2. '<table>' -- HTML Table element represents data in 2 dimensions or more
+### 2. `<table>` -- HTML Table element represents data in 2 dimensions or more
 
 * *type:* block-level
 * *content:* Flow Content[1]
@@ -42,7 +42,7 @@
 </tr>
 </table>
 
-### 3. '<pre>' -- Preformatted Text, observes whitespace
+### 3. `<pre>` -- Preformatted Text, observes whitespace
 
 * *type:* block-level
 * *content:* phrasing content[2]
@@ -59,7 +59,7 @@ derp      space
 s p a c e d
 </pre>
 
-### 4. '<dl>' -- Description list element
+### 4. `<dl>` -- Description list element
 
 * *type:* block-level
 * *content:* Flow content[1]
@@ -76,7 +76,7 @@ s p a c e d
 <dd>Some guy that signed up for the iron yard</dd>
 </dl>
 
-### 5. '<footer>' -- footer for its nearest section content
+### 5. `<footer>` -- footer for its nearest section content
 
 * *type:* block-level
 * *content:* Flow content[1], no footer or header descendents
@@ -87,7 +87,7 @@ s p a c e d
 ```
 <footer>some copyright stuff generally ignored</footer>
 
-### 6. '<div>' -- Generic container for flow content
+### 6. `<div>` -- Generic container for flow content
 
 * *type:* block-level
 * *content:* Flow content[1]
@@ -132,7 +132,7 @@ s p a c e d
 <p>OMG no wayyyyyy</p>
 </div>
 
-### 7. '<address>' -- supply contact info for nearest article
+### 7. `<address>` -- supply contact info for nearest article
 
 * *type:* block-level
 * *content:* Flow content[1]
@@ -151,7 +151,7 @@ visit me at:<br>
 orlando, FL 32828</br>
 </address>
 
-### 8. '<noscript>' -- section of HTML to be inserted if script type is unsupported or disabled
+### 8. `<noscript>` -- section of HTML to be inserted if script type is unsupported or disabled
 
 * *type:* block-level
 * *content:* Flow content[1] phrasing content[2] metadata content [3]
@@ -166,7 +166,7 @@ orlando, FL 32828</br>
 <p>yo dawg enable some scripts or get a new browser</p>
 </noscript>
 
-### 9. '<figure>' -- Groups media content with a caption
+### 9. `<figure>` -- Groups media content with a caption
 
 * *type:* block-level
 * *content:* Flow content[1] with '<figcaption>' before or after
@@ -181,7 +181,7 @@ orlando, FL 32828</br>
 <img src="https://pbs.twimg.com/profile_images/3057783705/bd2891fa1e9eacb32a4f23d6f866b593_400x400.png" alt="un iron yard"><figcaption>home is where the heart is</figcaption>
 </figure>
 
-### 10. '<blockquote>' -- indicates enclosed text is an extended quotation
+### 10. `<blockquote>` -- indicates enclosed text is an extended quotation
 
 * *type:* block-level
 * *content:* flow content[1]
