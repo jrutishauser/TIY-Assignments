@@ -165,3 +165,33 @@ orlando, FL 32828</br>
 <noscript>
 <p>yo dawg enable some scripts or get a new browser</p>
 </noscript>
+
+### 9. '<figure>' -- Groups media content with a caption
+
+* *type:* block-level
+* *content:* Flow content[1] with '<figcaption>' before or after
+* *support:* all browsers
+* *example:*
+```
+<figure>
+<img src="https://pbs.twimg.com/profile_images/3057783705/bd2891fa1e9eacb32a4f23d6f866b593_400x400.png" alt="un iron yard"><figcaption>home is where the heart is</figcaption>
+</figure>
+```
+<figure>
+<img src="https://pbs.twimg.com/profile_images/3057783705/bd2891fa1e9eacb32a4f23d6f866b593_400x400.png" alt="un iron yard"><figcaption>home is where the heart is</figcaption>
+</figure>
+
+### 10. '<blockquote>' -- indicates enclosed text is an extended quotation
+
+* *type:* block-level
+* *content:* flow content[1]
+* *support:* all browsers
+* *example:*
+```
+<blockquote cite="http://southpark.cc.com/">
+<p>Screw you guys, I'm going home.</p>
+</blockquote>
+```
+<blockquote cite="http://southpark.cc.com/">
+<p>Screw you guys, I'm going home.</p>
+</blockquote>
