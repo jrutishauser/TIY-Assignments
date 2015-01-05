@@ -79,10 +79,55 @@ s p a c e d
 ### 5. '<footer>' -- footer for its nearest section content
 
 * *type:* block-level
-* *content:* Flow content[1], but with no footer or header descendents
+* *content:* Flow content[1], no footer or header descendents
 * *support:* all browsers
 * *example:*
 ```
 <footer>some copyright stuff generally ignored</footer>
 ```
 <footer>some copyright stuff generally ignored</footer>
+
+### 6. '<div>' -- Generic container for flow content
+
+* *type:* block-level
+* *content:* Flow content[1]
+* *support:* all browsers
+* *example:*
+```
+<div>
+<h1>content?</h1>
+<p>any content in these things!</p>
+<p>even, our table from before!?!?!?</p>
+<br>
+<table>
+<tr>
+<td>top left</td>
+<td>top right</td>
+</tr>
+<tr>
+<td>bottom left</td>
+<td>bottom right</td>
+</tr>
+</table>
+<br>
+<p>OMG no wayyyyyy</p>
+</div>
+```
+<div>
+<h1>content?</h1>
+<p>any content in these things!</p>
+<p>even, our table from before!?!?!?</p>
+<br>
+<table>
+<tr>
+<td>top left</td>
+<td>top right</td>
+</tr>
+<tr>
+<td>bottom left</td>
+<td>bottom right</td>
+</tr>
+</table>
+<br>
+<p>OMG no wayyyyyy</p>
+</div>
