@@ -42,4 +42,47 @@
 </tr>
 </table>
 
-### 3. ''
+### 3. '<pre>' -- Preformatted Text, observes whitespace
+
+* *type:* block-level
+* *content:* phrasing content[2]
+* *support:* all browsers
+* *example:*
+```
+<pre>
+derp      space
+s p a c e d
+</pre>
+```
+<pre>
+derp      space
+s p a c e d
+</pre>
+
+### 4. '<dl>' -- Description list element
+
+* *type:* block-level
+* *content:* Flow content[1]
+* *support:* all browsers
+* *example:*
+```
+<dl>
+<dt>Jon</dt>
+<dd>Some guy that signed up for the iron yard</dd>
+</dl>
+```
+<dl>
+<dt>Jon</dt>
+<dd>Some guy that signed up for the iron yard</dd>
+</dl>
+
+### 5. '<footer>' -- footer for its nearest section content
+
+* *type:* block-level
+* *content:* Flow content[1], but with no footer or header descendents
+* *support:* all browsers
+* *example:*
+```
+<footer>some copyright stuff generally ignored</footer>
+```
+<footer>some copyright stuff generally ignored</footer>
