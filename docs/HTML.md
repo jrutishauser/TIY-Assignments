@@ -196,6 +196,23 @@ orlando, FL 32828</br>
 <p>Screw you guys, I'm going home.</p>
 </blockquote>
 
+### 11. `<article>` -- represents a self-contained composition in a document page
+
+* *type:* block-level
+* *content:* flow content[1], sectioning content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<article>
+  <h4>totally bitchin' article</h4>
+  <p>all this sweet sweet text about that!</p>
+</article>
+```
+<article>
+<h4>totally bitchin' article</h4>
+<p>all this sweet sweet text about that!</p>
+</article>
+
 ### Footnotes:
 
 1. [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
