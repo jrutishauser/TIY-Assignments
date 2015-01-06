@@ -195,3 +195,9 @@ orlando, FL 32828</br>
 <blockquote cite="http://southpark.cc.com/">
 <p>Screw you guys, I'm going home.</p>
 </blockquote>
+
+### Footnotes:
+
+1. [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
+2. [phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
+3. [metadata content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Metadata_content)
