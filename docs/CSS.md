@@ -84,4 +84,13 @@
 
 * `all the values`
 
-### 8.
+### 8. `inline block`
+
+* elements: all block
+* inherited: no
+
+#### Values
+
+* `same thing a div can do`
+
+### 9.
