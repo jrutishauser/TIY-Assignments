@@ -74,3 +74,14 @@
 * `border-box` width and height properties and min and max properties includes content padding and border but not margin
 * `initial` sets this property to its default value
 * `inherit` inherits this property from its parent element
+
+### 7. `media query`
+
+* elements: all
+* inherited: no
+
+#### Values
+
+* `all the values`
+
+### 8.
