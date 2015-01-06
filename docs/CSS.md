@@ -105,3 +105,14 @@
 * `column-count` the number of columns
 * `initial` sets this property to its default value
 * `inherit` inherits this property from its parent element
+
+### 10. `color`
+
+* elements: text
+* inherited: yes
+
+#### Values
+
+* `color` specifies the text color
+* `initial` sets this property to its default
+* `inherit` inherits this property from its parent
