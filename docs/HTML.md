@@ -213,6 +213,72 @@ orlando, FL 32828</br>
 <p>all this sweet sweet text about that!</p>
 </article>
 
+### 12. `<aside>` -- represents a section of the page with content connected tangentially to the side
+
+* *type:* block-level
+* *content:* flow content[1], sectioning content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<aside>
+  <p>who doesnt love tangents? espescially on the side!</p>
+</aside>
+```
+<aside>
+<p>who doesnt love tangents? espescially on the side!</p>
+</aside>
+
+### 13. `<canvas>` -- drawing canvas
+
+* *type:* block-level
+* *content:* flow content[1], phrasing content[2], embedded content, palpable content
+* *support:* firefox only
+* *example:*
+```
+<canvas width="100" height="100">
+Sorry, your browser doesn't support the &lt;canvas&gt; element.
+</canvas>
+```
+<canvas width="100" height="100">
+Sorry, your browser doesn't support the &lt;canvas&gt; element.
+</canvas>
+
+### 14. `<header>` -- section or page header
+
+* *type:* block-level
+* *content:* flow-content[1], palpable content
+* *support:* all browsers
+* *example:*
+```
+<header>
+  this section below is going to be so boss
+</header>
+```
+<header>
+this section below is going to be so boss
+</header>
+
+### 15. `<ol>` -- ordered list
+
+* *type:* block level
+* *content:* Flow content, and if the <ol> element's children include at least one <li> element, palpable content.
+* *support:* all browsers
+* *example:*
+```
+<ol>
+  <li> item one </li>
+  <li> item two </li>
+  <li> item three </li>
+</ol>
+```
+<ol>
+<li> item one </li>
+<li> item two </li>
+<li> item three </li>
+</ol>
+
+
+
 ### Footnotes:
 
 1. [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
