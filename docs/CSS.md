@@ -93,4 +93,15 @@
 
 * `same thing a div can do`
 
-### 9.
+### 9. `column`
+
+* elements: all block
+* inhreited: no
+
+#### Values
+
+* `auto` default value, sets both the column-width to auto and the column-count to auto
+* `column-width` the width of the columns
+* `column-count` the number of columns
+* `initial` sets this property to its default value
+* `inherit` inherits this property from its parent element
