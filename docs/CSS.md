@@ -49,3 +49,16 @@
 * `both` no floating elements allowed on either the right or left side
 * `initial` sets this property to its default value
 * `inherit` inherits this property from its parent element
+
+### 5. `margin`
+
+* elements: all
+* inherited: no
+
+#### Values
+
+* `length` Specifies a margin in px, pt, cm, etc.. default is 0
+* `%` spedifies a margin in percent width of the containing element
+* `auto` the browser calculates margin
+* `initial` sets this property to its default value
+* `inherit` inherits this property from its parent element
