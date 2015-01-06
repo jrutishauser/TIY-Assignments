@@ -35,3 +35,17 @@
 * `left` the element floats to the left
 * `initial` sets the property to its default value
 * `inherit` inherits this property from its parent
+
+### 4. `clear`
+
+* elements: all block
+* inherited: yes
+
+#### Values
+
+* `none` default, allows floating elements on both sides
+* `left` no floating elements allowed on left side
+* `right` no floating elemenets allowed on right side
+* `both` no floating elements allowed on either the right or left side
+* `initial` sets this property to its default value
+* `inherit` inherits this property from its parent element
