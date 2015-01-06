@@ -62,3 +62,15 @@
 * `auto` the browser calculates margin
 * `initial` sets this property to its default value
 * `inherit` inherits this property from its parent element
+
+### 6. `box-sizing`
+
+* elements: all block
+* inherited: no
+
+#### Values
+
+* `content-box` Default. The width and height properties and min and max includes only the content.  border, padding, margin not included
+* `border-box` width and height properties and min and max properties includes content padding and border but not margin
+* `initial` sets this property to its default value
+* `inherit` inherits this property from its parent element
