@@ -75,23 +75,30 @@
 * `initial` sets this property to its default value
 * `inherit` inherits this property from its parent element
 
-### 7. `media query`
+### 7. `padding`
 
 * elements: all
 * inherited: no
 
 #### Values
 
-* `all the values`
+* `length` specifies the padding in px, pt, cm, etc. default is 0
+* `%` specifies the padding in percent of the width of the containing element
+* `initial` sets this property to its default value
+* `inherit` inherits this property from the parent element
 
-### 8. `inline block`
+### 8. `border`
 
-* elements: all block
+* elements: all
 * inherited: no
 
 #### Values
 
-* `same thing a div can do`
+* `border width` specifies the width of the border. default value is medium
+* `border style` specifies the style of the border. default is none
+* `border color` specifies the color of the border. default is color of element
+* `initial` sets this property to its default value
+* `inherit` inherits this property from its parent element
 
 ### 9. `column`
 
