@@ -304,7 +304,7 @@ this section below is going to be so boss
 * *example:*
 ```
 <form>
-<input type="radio" name="mrormrs" value="mr">Mr
+<input type="radio" name="mrormrs" value="mr">Mr<br>
 <input type="radio" name="mrormrs" value="mr">Mrs<br>
 first name:
 <input type="text" name="firstname">
@@ -320,6 +320,38 @@ first name:
 last name:
 <input type="text" name="lastname">
 </form>
+
+### 18. `<section>` -- represents a generic section of a document
+
+* *type:* block-level
+* *content:* flow content[1], sectioning content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<section>
+  <h3>awesome section</h3>
+  <p>awesome section text!</p>
+</section>
+```
+<section>
+<h3>awesome section</h3>
+<p>awesome section text!</p>
+</section>
+
+### 19. `<video>` -- used to embed video content
+
+* *type:* block-level
+* *content:* flow content[1], phrasing content[2], embedded content if with controls interactive content and palpable content
+* *support:* all browsers
+* *example:*
+```
+<video src="idonthaveavideo.mp4" width="260" height="378" controls poster="http://www.rankopedia.com/CandidatePix/36731.gif">
+sorry your browser cant play video OR there is actually no video.
+</video>
+```
+<video src="idonthaveavideo.mp4" width="260" height="378" controls poster="http://www.rankopedia.com/CandidatePix/36731.gif">
+sorry your browser cant play video OR there is actually no video.
+</video>
 
 ### Footnotes:
 
