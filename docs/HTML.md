@@ -296,8 +296,28 @@ this section below is going to be so boss
 <li> item who cares what number last?</li>
 </ul>
 
-### 17. 
+### 17. `<form>` -- represents a document section that contains controls to submit information
 
+* *type:* block-level
+* *content:* flow content[1], palpable content
+* *support:* all browsers
+* *example:*
+```
+<form>
+first name:
+<input type="text" name="firstname">
+<br>
+last name:
+<input type="text" name="lastname">
+</form>
+```
+<form>
+first name:
+<input type="text" name="firstname">
+<br>
+last name:
+<input type="text" name="lastname">
+</form>
 
 ### Footnotes:
 
