@@ -304,6 +304,8 @@ this section below is going to be so boss
 * *example:*
 ```
 <form>
+<input type="radio" name="mrormrs" value="mr">Mr
+<input type="radio" name="mrormrs" value="mr">Mrs<br>
 first name:
 <input type="text" name="firstname">
 <br>
