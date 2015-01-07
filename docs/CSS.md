@@ -1,6 +1,6 @@
 ### 1. `max-width`
 
-* elements: all, mostly block elements
+* elements: all
 * inherited: no
 
 #### Values
@@ -13,7 +13,7 @@
 
 ### 2. `position`
 
-* elements: all block
+* elements: all
 * inherited: no
 
 #### Values
@@ -26,7 +26,7 @@
 
 ### 3. `float`
 
-* elements: all block
+* elements: all
 * inherited: no
 
 #### Values
@@ -38,7 +38,7 @@
 
 ### 4. `clear`
 
-* elements: all block
+* elements: all
 * inherited: yes
 
 #### Values
@@ -65,7 +65,7 @@
 
 ### 6. `box-sizing`
 
-* elements: all block
+* elements: all
 * inherited: no
 
 #### Values
@@ -102,7 +102,7 @@
 
 ### 9. `column`
 
-* elements: all block
+* elements: all 
 * inhreited: no
 
 #### Values
