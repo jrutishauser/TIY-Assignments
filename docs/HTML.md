@@ -345,13 +345,28 @@ last name:
 * *support:* all browsers
 * *example:*
 ```
-<video src="idonthaveavideo.mp4" width="260" height="378" controls poster="http://www.rankopedia.com/CandidatePix/36731.gif">
+<video src="idonthaveavideo.mp4" width="300" height="200" controls>
 sorry your browser cant play video OR there is actually no video.
 </video>
 ```
-<video src="idonthaveavideo.mp4" width="260" height="378" controls poster="http://www.rankopedia.com/CandidatePix/36731.gif">
+<video src="idonthaveavideo.mp4" width="300" height="200" controls>
 sorry your browser cant play video OR there is actually no video.
 </video>
+
+### 20. `<p>` -- represents a paragraph of text
+
+* *type:* block-level
+* *content:* flow content[1], palpable content
+* *support:* all browsers
+* *example:*
+```
+<p>
+celebration paragraph
+</p>
+```
+<p>
+celebration paragraph
+</p>
 
 ### Footnotes:
 
