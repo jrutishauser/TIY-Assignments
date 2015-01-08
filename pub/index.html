@@ -12,6 +12,68 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main/css">
     <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    #page-header {
+      background: url("http://importantstudio.com/ironyard/dreddh.jpg");
+      margin: 0;
+      width: 1440px;
+      height: 350px;
+    }
+    .page-columns {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .page-column-side {
+      float: left;
+      margin: -80px 0 0 0;
+      width: 20%;
+      outline: 3px;
+    }
+    .page-column-side img {
+      width: 150px;
+      height: 150px;
+      margin: 0;
+      border-radius: 50%;
+      border: 5px white solid;
+
+    }
+    .page-column-side hr {
+      width: 80%;
+    }
+    .page-column-main {
+      float: right;
+      margin: 0;
+      width: 70%;
+    }
+    article:first-child {
+      margin: 100px auto 0px auto;
+    }
+    article {
+      margin: 50px auto 0px auto;
+    }
+    article img {
+      width: 500px;
+    }
+    .page-column-side img + p {
+      color: #666674;
+      font-weight: bold;
+      font-size: 120%;
+    }
+    .page-column-side img + p + p {
+      font-size: 110%;
+      color: #aaaaaa;
+      font-family: serif;
+    }
+    h1 {
+      color: #39474e;
+      font-size: 225%;
+    }
+
+
 
     </style>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -24,15 +86,66 @@
 
     <div class="container" id="container">
       <header id="page-header">
-      </header> <!-- #pageheader -->
+      </header>
       <section class="page-columns">
-        <aside style="float:left; width:100px" class="page-column-side">
-          <p>Hello sidebar</p>
+        <aside class="page-column-side">
+          <img src="http://importantstudio.com/ironyard/badge.jpg">
+          <p>I AM THE LAW |<br>ORLANDO</p>
+          <p> Responding to less than 5% of the crime in Megacity</p>
+          <hr>
         </aside>
         <section class="page-column-main">
-          <p>Hello main column!</p>
-        </section> <!-- .page-column-main -->
-      </section> <!-- .page-columns -->
+          <article>
+            <h1>Actual Cannibal Shia Labeouf!</h1>
+            <span>| by Rob Cantor</span>
+            <p>You're walking in the woods.
+              There's no one around,
+              And your phone is dead.
+              Out of the corner of your eye you spot him,
+              Shia Labeouf.</p>
+            <p>He's following you
+              About 30 feet back.
+              He gets down on all fours and breaks into a sprint.
+              He's gaining on you.
+              Shia Labeouf.</p>
+            <img src="http://importantstudio.com/ironyard/actcan.jpg" alt="Actual Cannibal Shia Labeouf">
+            <p>You're looking for your car,
+              But you're all turned around.
+              He's almost upon you now
+              And you can see there's blood on his face!
+              My god, there's blood everywhere!</p>
+          </article>
+          <article>
+          <h1>Ni sitter dr I Ventrilo och spelr DotA</h1>
+          <span>| by Basshunter</span>
+          <p>Det r det enda ni gr p dagarna
+            Ni sitter dr I Ventrilo och spelr
+            DotA</p>
+          <img src="http://importantstudio.com/ironyard/dota.png" alt="just sitting on ventrilo playing dota">
+          <p>Vi sitter här I venten och spelar lite DotA
+            I hear you man
+            Vi sitter här I venten och spelar lite DotA
+            I feel you man</p>
+          </article>
+          <article>
+            <h1>This song makes me wish I liked Margaritas</h1>
+            <span>| by Jimmy Buffet</span>
+            <p>Nibbling on sponge cake, watching the sun bake,
+              All of those tourists covered with oil,
+              Strumming my six string, on my front porch swing,
+              Smell those shrimp, they're beginning to boil.</p>
+            <p>Wasting away again in Margaritaville,
+              Searching for my lost shaker of salt,
+              Some people claim that there's a woman to blame,
+              But I know it's nobody's fault.</p>
+            <img src="http://importantstudio.com/ironyard/buffet.jpg" alt="looking for my lost shaker of salt">
+            <p>Don't know the reason that I stayed here all season,
+              With nothing to show but this brand new tattoo,
+              But it's a real beauty, a Mexican cutie,
+              How it got here I haven't a clue.</p>
+          </article>
+        </section>
+      </section>
       <footer id="page-footer">
       </footer>
     </div
