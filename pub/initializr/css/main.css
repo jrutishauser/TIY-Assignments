@@ -61,7 +61,47 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   body {
+     margin: 0;
+     padding: 0;
+   }
+   header {
+     margin: 5px;
+     text-align: center;
+     position: relative;
+   }
+   .most-excellent-title {
+     position: absolute;
+     top: 50%;
+     left: 30%;
+   }
+   h1 {
+     color: #FFFFFF;
+   }
+   .most-excellent-title p {
 
+   }
+   .bodacious-container {
+
+   }
+
+   article {
+     margin: 5%;
+     float: left;
+
+   }
+   .side-column {
+     float: right;
+     margin: 5%;
+
+   }
+   .popular-posts {
+     clear: both;
+
+   }
+   footer {
+
+   }
 
 
 
