@@ -161,24 +161,36 @@ textarea {
 
    }
    footer {
-     width: 90%;
-
+     width: 70%;
    }
    .left-foot {
      float: left;
      text-align: center;
+     width: 50%;
    }
    .right-foot {
      float: right;
      text-align: center;
+     width: 50%;
    }
    .right-foot ul li {
      display: inline;
      border-right: 1px solid gray;
    }
    .right-foot ul {
+     text-align: center;
+     padding-top: 10px;
    }
-
+   .left-foot img {
+     width: 50px;
+     border-radius: 50%;
+     vertical-align: center;
+   }
+   .wtf {
+     background-color: blue;
+     width: 90%;
+     margin: 0 auto;
+   }
 
 
 
