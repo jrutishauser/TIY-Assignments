@@ -82,7 +82,7 @@ textarea {
 
    }
    .bodacious-container {
-     width: 80%;
+     width: 75%;
      margin: 0 auto;
 
    }
@@ -91,10 +91,16 @@ textarea {
      width: 62%;
      float: left;
    }
+   .the-late-addition {
+     width: 90%;
+
+   }
 
    article {
-     margin: 5%;
 
+   }
+   h3 {
+     font-size: 300%;
    }
    address {
      display: inline-block;
@@ -105,17 +111,59 @@ textarea {
      border-radius: 50%;
      vertical-align: center;
    }
+   .deep-quote {
+     border-left: 3px gray solid;
+   }
    .save-the-whales-side-column {
      float: right;
-     width: 38%;
+     width: 33%;
+     text-align: center;
 
    }
-   .save-the-whales-side-column img {
-     width: 50px;
+   .woah {
+     width: 100px;
      border-radius: 50%;
+   }
+   ul li {
+     display: inline;
+   }
+   .adpic {
+     width: 250px;
+
+   }
+   .popular-posts {
+     width: 90%;
+     margin: 0 auto;
    }
    .popular-posts {
      clear: both;
+
+   }
+   .popular-posts img {
+     width: 300px;
+   }
+   .four-posts {
+     margin: 0 auto;
+   }
+   .first-post {
+      display: inline-block;
+      width: 24%;
+      margin: 0;
+      padding; 0;
+   }
+   .second-post {
+     width: 25%;
+     float: left;
+
+   }
+   .third-post {
+     width: 25%;
+     float: left;
+
+   }
+   .fourth-post {
+     width: 25%;
+     float: left;
 
    }
    footer {
