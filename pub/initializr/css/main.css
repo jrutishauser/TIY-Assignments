@@ -119,13 +119,14 @@ textarea {
      float: right;
      width: 33%;
      text-align: center;
+     margin: 50px 0 0 0;
 
    }
    .woah {
      width: 100px;
      border-radius: 50%;
    }
-   ul li {
+   .save-the-whales-side-column ul li {
      display: inline;
    }
    .adpic {
@@ -152,13 +153,31 @@ textarea {
       margin: 0;
       padding; 0;
    }
+   .popular-posts h2 {
+     text-align: center;
+     font-size: 300%;
+   }
 
 
    }
    footer {
+     width: 90%;
 
    }
-
+   .left-foot {
+     float: left;
+     text-align: center;
+   }
+   .right-foot {
+     float: right;
+     text-align: center;
+   }
+   .right-foot ul li {
+     display: inline;
+     border-right: 1px solid gray;
+   }
+   .right-foot ul {
+   }
 
 
 
