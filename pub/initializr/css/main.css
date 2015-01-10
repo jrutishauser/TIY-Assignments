@@ -161,36 +161,34 @@ textarea {
 
    }
    footer {
-     width: 70%;
+     background-color: blue;
+
    }
-   .left-foot {
-     float: left;
+   .inline-foot {
      text-align: center;
-     width: 50%;
+     width: 40%;
+     display: inline;
+     font-size: 70%;
    }
-   .right-foot {
-     float: right;
+   .inline-foot {
      text-align: center;
-     width: 50%;
+     width: 300px;
+     display: inline;
    }
-   .right-foot ul li {
+   .inline-foot ul li {
      display: inline;
      border-right: 1px solid gray;
    }
-   .right-foot ul {
+   .inline-foot ul {
      text-align: center;
-     padding-top: 10px;
+     padding-top: 12px;
    }
-   .left-foot img {
+   .inline-foot img {
      width: 50px;
      border-radius: 50%;
      vertical-align: center;
    }
-   .wtf {
-     background-color: blue;
-     width: 90%;
-     margin: 0 auto;
-   }
+
 
 
 
