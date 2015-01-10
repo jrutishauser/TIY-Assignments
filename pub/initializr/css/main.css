@@ -145,25 +145,13 @@ textarea {
    .four-posts {
      margin: 0 auto;
    }
-   .first-post {
+   .check-it-out-dude-same-div {
       display: inline-block;
       width: 24%;
       margin: 0;
       padding; 0;
    }
-   .second-post {
-     width: 25%;
-     float: left;
 
-   }
-   .third-post {
-     width: 25%;
-     float: left;
-
-   }
-   .fourth-post {
-     width: 25%;
-     float: left;
 
    }
    footer {
