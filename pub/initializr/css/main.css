@@ -82,18 +82,37 @@ textarea {
 
    }
    .bodacious-container {
+     width: 80%;
+     margin: 0 auto;
 
+   }
+
+   .bogus-article-container {
+     width: 62%;
+     float: left;
    }
 
    article {
      margin: 5%;
-     float: left;
 
    }
-   .side-column {
-     float: right;
-     margin: 5%;
+   address {
+     display: inline-block;
 
+   }
+   address img {
+     width: 50px;
+     border-radius: 50%;
+     vertical-align: center;
+   }
+   .save-the-whales-side-column {
+     float: right;
+     width: 38%;
+
+   }
+   .save-the-whales-side-column img {
+     width: 50px;
+     border-radius: 50%;
    }
    .popular-posts {
      clear: both;
