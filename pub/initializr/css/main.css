@@ -61,10 +61,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   body {
-     margin: 0;
-     padding: 0;
-   }
    header {
      margin: 5px;
      text-align: center;
@@ -75,12 +71,6 @@ textarea {
      top: 50%;
      left: 30%;
    }
-   h1 {
-     color: #FFFFFF;
-   }
-   .most-excellent-title p {
-
-   }
    .bodacious-container {
      width: 75%;
      margin: 0 auto;
@@ -90,15 +80,6 @@ textarea {
    .bogus-article-container {
      width: 62%;
      float: left;
-   }
-   .the-late-addition {
-     width: 90%;
-     margin: 0 auto;
-
-   }
-
-   article {
-
    }
    h3 {
      font-size: 300%;
@@ -133,64 +114,76 @@ textarea {
      width: 250px;
 
    }
-   .popular-posts {
+   .page-break {
+     width: 90%;
+     clear: both;
+     margin: 0 auto;
+   }
+   #bottom-four {
      width: 90%;
      margin: 0 auto;
    }
-   .popular-posts {
-     clear: both;
 
-   }
-   .popular-posts img {
-     width: 300px;
-   }
-   .four-posts {
-     margin: 0 auto;
-   }
-   .check-it-out-dude-same-div {
-      display: inline-block;
-      width: 24%;
-      margin: 0;
-      padding; 0;
-   }
-   .popular-posts h2 {
-     text-align: center;
-     font-size: 300%;
+
+   .next-post-one {
+     width: 320px;
+     height: 320px;
+     float: left;
    }
 
 
+
+   .next-post-two {
+     width: 320px;
+     height: 320px;
+     float: left;
+     position: relative;
+   }
+   .next-post-three {
+     width: 320px;
+     height: 320px;
+     float: left;
+   }
+   .next-post-four {
+     width: 320px;
+     height: 320px;
+     float: left;
+   }
+   .rollover {
+     opacity: .7;
+     background-color: #6697bd;
+     cursor: pointer;
+     height: 320px;
+     width: 320px;
+     z-index: 10;
+     opacity: .7;
+     position:absolute;
+
+   }
+
+   .rollover:hover {
+     opacity: 0;
+   }
+   .derp1 {
+     position: relative;
+     width: 320px;
+     height: 320px;
+
+   }
+   .derpderp1 {
+     position: absolute;
+     bottom: 4px;
+     left: 8px;
+     max-width: 320px;
+     color: white;
+     font-size: 200%;
+   }
+   #bottom-four img {
+     max-width: 320px;
    }
    footer {
-     background-color: blue;
-
+     
    }
-   .inline-foot {
-     text-align: center;
-     width: 40%;
-     display: inline;
-     font-size: 70%;
-   }
-   .inline-foot {
-     text-align: center;
-     width: 300px;
-     display: inline;
-   }
-   .inline-foot ul li {
-     display: inline;
-     border-right: 1px solid gray;
-   }
-   .inline-foot ul {
-     text-align: center;
-     padding-top: 12px;
-   }
-   .inline-foot img {
-     width: 50px;
-     border-radius: 50%;
-     vertical-align: center;
-   }
-
-
-
 
 
 
