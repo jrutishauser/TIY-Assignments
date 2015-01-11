@@ -182,7 +182,13 @@ textarea {
      max-width: 320px;
    }
    footer {
-     
+     clear: both;
+   }
+   .left-foot {
+
+   }
+   .right-foot {
+
    }
 
 
