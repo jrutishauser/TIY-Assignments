@@ -123,3 +123,86 @@
 * `color` specifies the text color
 * `initial` sets this property to its default
 * `inherit` inherits this property from its parent
+
+### 11. `background-image`
+
+* elements: divs and body?
+* inherited: no
+
+#### Values
+
+* `URL` the URL to the image. to specify more than one separate the the URLs with a comma
+* `none` No background image shown (default)
+* `initial` sets this property to its default value
+* `inherit` inherits this property from its parent
+
+### 12. `font-family`
+
+* elements: any text element
+* inherited: yes
+
+#### Values
+
+* `family-name, generic-family` A prioritized list of font family names and/or generic family names
+* `initial` Sets this property to its default value
+* `inherit` Inherits this property from its parent element
+
+### 13. `font-size`
+
+* elements: any text
+* inherited: yes
+
+#### Values
+
+* `medium` sets the font to a medium size.  default
+* `xx-small x-small small large x-large xx-large` c'mon man p-obvious
+* `smaller larger` sets font to a smaller or larger size then its parent size
+* `length` sets the font to a fixed size in px, cm, etc..
+* `%` sets the font size to a percent of the parents element
+* `initial` sets to default
+* `inherit` inherits this property from parent
+
+### 14. `text-align`
+
+* elements: text and images
+* inherited: yes
+
+#### Values
+
+* `left` Aligns text to the left
+* `right` Aligns text to the right
+* `center` David, you wont believe it but.... centers it
+* `justify` stretches the lines so that each line has an equal width
+* `initial` sets this property to its default value
+* `inherit` inherits this property from the parent element
+
+### 15. `box-shadow`
+
+* elements: box element
+* inherited: no
+
+#### Values
+
+* `none` default value, none
+* `h-shadow` required. position of horizontal shadow. negative allowed
+* `v-shadow` required. position of veritcal shadow. neg allowed
+* `blur` optional the blur distance
+* `spread` optional, size of shadow
+* `color` optional the color of the shadow
+* `inset` optional. changeds the shadow from an outer shadow to an inner shadow
+* `initial` sets to default
+* `inherit` inherits this property from its parent
+
+### 16. `overflow`
+
+* elements: box element
+* inherited: no
+
+#### Values
+
+* `visible` the overflow is not clipped. renders outside the elements box
+* `hidden` the overflow is clipped, and the rest of the content will be invisible
+* `scroll` the overflow is clipped, but a scroll-bar is added to see the rest of the content
+* `auto` if overflow is clipped a scroll-bar should be added to see the rest
+* `initial` sets to default
+* `inherit` inherits this property from its parent
