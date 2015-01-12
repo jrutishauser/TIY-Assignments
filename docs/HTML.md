@@ -368,6 +368,20 @@ celebration paragraph
 celebration paragraph
 </p>
 
+### 21. `<img>` -- represents an image
+
+* *type:* block-level
+* *content:* flow content[1], phrasing content[2], embedded content, palpable content
+* *support:* all browsers
+* *example:*
+
+```
+<img src="https://pbs.twimg.com/profile_images/1453594225/eric_cartman_400x400.gif">
+```
+<img src="https://pbs.twimg.com/profile_images/1453594225/eric_cartman_400x400.gif">
+
+
+
 ### Footnotes:
 
 1. [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
