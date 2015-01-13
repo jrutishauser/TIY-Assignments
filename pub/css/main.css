@@ -60,13 +60,32 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+header {
+    width: 80%;
+    margin: 20px auto 70px auto;
+    color: #58A4D7;
+}
+.left-head {
+    width: 50%;
+}
+.right-head {
+    width: 50%;
+}
+h1 {
+    font-size: 80%;
+    margin: 0;
+}
+h2 {
+    font-size: 200%;
+    margin: 0;
+}
 #table-container {
     width: 60%;
     margin: 0 auto;
-    color: white;
 }
+#table-container p {
 
+}
 #table-container h3 {
     font-size: 150%;
 }
@@ -76,6 +95,7 @@ textarea {
 #table-container li {
     padding: 10px 30px 10px 30px;
     position: relative;
+    list-style-type: none;
 }
 
 #table-container > ul > li:nth-child(2n+1) {
@@ -119,6 +139,10 @@ textarea {
     border: 8px solid #B5DCE6;
     left: -70px;
     top: -15px;
+    text-align: center;
+}
+".fa fa-apple fa-lg" {
+    line-height: inherit;
 }
 
 
