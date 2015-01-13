@@ -147,6 +147,19 @@ h2 {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+/* didnt have time to implement this.
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid black;
+    position: absolute;
+    left: -160;
+    top: 0px;
+    
+}
+*/
 .post-line {
     width: 90%;
     color: white;
