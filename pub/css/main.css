@@ -64,28 +64,50 @@ textarea {
 #table-container {
     width: 60%;
     margin: 0 auto;
+    color: white;
 }
 
-#table-container > h3 {
-    color: red;  
+#table-container h3 {
+    font-size: 150%;
 }
 #table-container > ul {
-    
+    border-left: 10px solid #B5DCE6;
+    position: relative;
+}
+#table-container li {
+    padding: 10px 30px 10px 30px;   
 }
 
 #table-container > ul > li:nth-child(2n+1) {
     background-color: #7ABFEB;
-    padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #table-container > ul > li:nth-child(2n+2) {
     background-color: #4895C8;
-    padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
-
+}
+.post-line {
+    width: 90%;
+    color: white;
+    margin: 0 auto;
+}
+.post-date {
+    color: #b9c9d3;
+}
+.post-time {
+    color: #B5DCE6;
+    font-size: 200%;
+}
+.timebox {
+    position: absolute;
+    left: -150px;
+    text-align: right;
+}
+.timebox p {
+    margin: 0;
 }
 
 
