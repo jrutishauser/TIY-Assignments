@@ -61,6 +61,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#page-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#page-container > h3 {
+    color: red;
+    
+}
+
+#page-container > li:nth-child(2n+1) {
+    background-color: #7ABFEB;
+    padding: 10px;
+}
+
+#page-container > li:nth-child(2n+2) {
+    background-color: #4895C8;
+    padding: 10px;
+}
+
 
 
 
