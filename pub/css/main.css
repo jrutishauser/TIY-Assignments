@@ -72,10 +72,10 @@ textarea {
 }
 #table-container > ul {
     border-left: 10px solid #B5DCE6;
-    position: relative;
 }
 #table-container li {
-    padding: 10px 30px 10px 30px;   
+    padding: 10px 30px 10px 30px;
+    position: relative;
 }
 
 #table-container > ul > li:nth-child(2n+1) {
@@ -99,11 +99,12 @@ textarea {
 }
 .post-time {
     color: #B5DCE6;
-    font-size: 200%;
+    font-size: 225%;
 }
 .timebox {
     position: absolute;
-    left: -150px;
+    left: -170px;
+    top: -10px;
     text-align: right;
 }
 .timebox p {
@@ -116,8 +117,8 @@ textarea {
     background-color: #58A4D7;
     border-radius: 50%;
     border: 8px solid #B5DCE6;
-    left: -31px;
-    top: -10px;
+    left: -70px;
+    top: -15px;
 }
 
 
