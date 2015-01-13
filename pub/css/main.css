@@ -60,6 +60,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    color: white;
+}
 header {
     width: 80%;
     margin: 20px auto 70px auto;
@@ -84,7 +87,6 @@ h2 {
     margin: 0 auto;
 }
 #table-container p {
-
 }
 #table-container h3 {
     font-size: 150%;
@@ -140,8 +142,11 @@ h2 {
     left: -70px;
     top: -15px;
     text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+
 }
-".fa fa-apple fa-lg" {
+i {
     line-height: inherit;
 }
 
