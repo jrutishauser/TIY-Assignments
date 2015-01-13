@@ -159,12 +159,20 @@ h2 {
     color: #B5DCE6;
     font-size: 225%;
 }
+
 .timebox {
     position: absolute;
     left: -170px;
     top: -10px;
     text-align: right;
 }
+
+/*
+I know I have to do this but I think I painted myself into a corner by not doing this from the start.  or I am too tired.
+ul li .timebox .post-time:nth-child(2n+2) {
+    color: #4895C8;
+}
+*/
 .timebox p {
     margin: 0;
 }
