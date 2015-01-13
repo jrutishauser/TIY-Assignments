@@ -109,6 +109,16 @@ textarea {
 .timebox p {
     margin: 0;
 }
+.iconpic {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: #58A4D7;
+    border-radius: 50%;
+    border: 8px solid #B5DCE6;
+    left: -31px;
+    top: -10px;
+}
 
 
 
