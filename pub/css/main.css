@@ -61,24 +61,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#page-container {
+#table-container {
     width: 60%;
     margin: 0 auto;
 }
 
-#page-container > h3 {
-    color: red;
+#table-container > h3 {
+    color: red;  
+}
+#table-container > ul {
     
 }
 
-#page-container > li:nth-child(2n+1) {
+#table-container > ul > li:nth-child(2n+1) {
     background-color: #7ABFEB;
     padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-#page-container > li:nth-child(2n+2) {
+#table-container > ul > li:nth-child(2n+2) {
     background-color: #4895C8;
     padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
 }
 
 
