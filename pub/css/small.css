@@ -1,0 +1,18 @@
+.white-space {
+    margin: 10px;
+    padding: 3px;
+}
+#table-container > ul {
+    border-left: none;
+}
+.timebox {
+    left: 0;
+    text-align: left;
+    top: -55px;
+}
+.iconpic {
+    left: auto;
+    position: relative;
+    float: right;
+    margin: -60px -25px 0 0;
+}

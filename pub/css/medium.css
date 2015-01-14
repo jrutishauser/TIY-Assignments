@@ -25,5 +25,6 @@ header {
 .post-time {
     font-size: 150%;
 }
-
-    
+#table-container li {
+    margin-top: 70px;
+}
