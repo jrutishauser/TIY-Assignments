@@ -1,0 +1,29 @@
+header {
+    width: 100%
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.left-head {
+    float: none;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 100%;
+    
+}
+.right-head {
+    float: none;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 100%;
+    
+}
+.right-head ul {
+    margin: 0;
+    padding: 0;
+}
+.post-time {
+    font-size: 150%;
+}
+
+    
