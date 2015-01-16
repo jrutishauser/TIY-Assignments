@@ -1,5 +1,15 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
 html,
 button,
 input,
@@ -13,6 +23,12 @@ html {
     line-height: 1.4;
 }
 
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -23,6 +39,10 @@ html {
     text-shadow: none;
 }
 
+/*
+ * A better looking default horizontal rule
+ */
+
 hr {
     display: block;
     height: 1px;
@@ -32,6 +52,11 @@ hr {
     padding: 0;
 }
 
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
 audio,
 canvas,
 img,
@@ -39,15 +64,27 @@ video {
     vertical-align: middle;
 }
 
+/*
+ * Remove default fieldset styles.
+ */
+
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
 }
 
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
 textarea {
     resize: vertical;
 }
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
 
 .browsehappy {
     margin: 0.2em 0;
@@ -56,156 +93,9 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-    color: white;
-}
-header {
-    width: 80%;
-    margin: 20px auto 50px auto;
-    color: #58A4D7;
-}
-.left-head {
-    width: 50%;
-    float: left;
-}
-.right-head {
-    width: 50%;
-    float: right;
-    margin: 0;
-    text-align: right;
-}
-.linkdiv {
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    border-radius: 50%;
-    border: 4px solid #58A4D7;
-    text-align: center;
-    line-height: 35px;
-    vertical-align: middle;
-    color: #58A4D7;
-
-}
-
-.linkdiv:hover {
-    background-color: #58A4D7;
-    color: white;
-}
-
-.right-head ul li {
-    display: inline-block;
-    margin: 0;
-}
-.right-head ul {
-    margin-right: 25%;
-}
-h1 {
-    font-size: 80%;
-    margin: 0;
-}
-h2 {
-    font-size: 200%;
-    margin: 0;
-}
-.white-space {
-    clear: both;
-    width: 100%;
-    height: 40px;
-
-}
-#table-container {
-    width: 60%;
-    margin: 0 auto;
-    clear: both;
-}
-#table-container p {
-}
-#table-container h3 {
-    font-size: 150%;
-}
-#table-container > ul {
-    border-left: 10px solid #B5DCE6;
-}
-#table-container li {
-    padding: 15px 30px 10px 30px;
-    position: relative;
-    list-style-type: none;
-}
-
-#table-container > ul > li:nth-child(2n+1) {
-    background-color: #7ABFEB;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-#table-container > ul > li:nth-child(2n+2) {
-    background-color: #4895C8;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-/* didnt have time to implement this.
-.arrow-left {
-	width: 0; 
-	height: 0; 
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent; 
-	border-right:10px solid black;
-    position: absolute;
-    left: -160;
-    top: 0px;
-    
-}
-*/
-.post-line {
-    width: 90%;
-    color: white;
-    margin: 0 auto;
-}
-.post-date {
-    color: #b9c9d3;
-}
-.post-time {
-    color: #B5DCE6;
-    font-size: 225%;
-}
-
-.timebox {
-    position: absolute;
-    left: -170px;
-    top: -10px;
-    text-align: right;
-}
-
-/*
-I know I have to do this but I think I painted myself into a corner by not doing this from the start.  or I am too tired.
-ul li .timebox .post-time:nth-child(2n+2) {
-    color: #4895C8;
-}
-*/
-.timebox p {
-    margin: 0;
-}
-.iconpic {
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    background-color: #58A4D7;
-    border-radius: 50%;
-    border: 8px solid #B5DCE6;
-    left: -70px;
-    top: -15px;
-    text-align: center;
-    line-height: 35px;
-    vertical-align: middle;
-
-}
-#table-container i {
-    line-height: inherit;
-}
 
 
 
@@ -220,29 +110,22 @@ ul li .timebox .post-time:nth-child(2n+2) {
 
 
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
 
-@media only screen and (min-width: 35em) {
 
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
+/*
+ * Image replacement
+ */
+
 .ir {
     background-color: transparent;
     border: 0;
     overflow: hidden;
+    /* IE 6/7 fallback */
     *text-indent: -9999px;
 }
 
@@ -253,10 +136,18 @@ ul li .timebox .post-time:nth-child(2n+2) {
     height: 150%;
 }
 
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
 .hidden {
     display: none !important;
     visibility: hidden;
 }
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
 
 .visuallyhidden {
     border: 0;
@@ -269,6 +160,11 @@ ul li .timebox .post-time:nth-child(2n+2) {
     width: 1px;
 }
 
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
@@ -279,32 +175,71 @@ ul li .timebox .post-time:nth-child(2n+2) {
     width: auto;
 }
 
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
 .invisible {
     visibility: hidden;
 }
 
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
 
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
 .clearfix {
     *zoom: 1;
 }
 
 /* ==========================================================================
-   Print styles
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 
 @media print {
     * {
         background: transparent !important;
-        color: #000 !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -322,6 +257,10 @@ ul li .timebox .post-time:nth-child(2n+2) {
         content: " (" attr(title) ")";
     }
 
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
@@ -335,7 +274,7 @@ ul li .timebox .post-time:nth-child(2n+2) {
     }
 
     thead {
-        display: table-header-group;
+        display: table-header-group; /* h5bp.com/t */
     }
 
     tr,
