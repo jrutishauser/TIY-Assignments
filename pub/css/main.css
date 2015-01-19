@@ -97,50 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#container {
-    width: 100%;
-}
-
-header {
-    background: url('hops2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 32%;
-    position: relative;
-}
-.headtext {
-    text-align: center;
-    width: 100%;
-    padding-top: 10%;
-    color: white;
-    position: absolute;
-}
-
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 5em;
-    margin: 0;
-    text-shadow: 3px 3px 5px #000;
-}
-h2 {
-    font-family: 'Parisienne', cursive;
-    font-size: 2em;
-    margin: -1em 0 0 0;
-    text-shadow: 3px 3px 5px #000;
-}
-.container {
-    position: relative;
-    
-}
-.picofme {
-    position: absolute;
-    left: 15%;
-    top: -55px;
-    
-    border-radius: 50%;
-    width: 7em;
-    border: 5px solid white;
-}
 
 
 
