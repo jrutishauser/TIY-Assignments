@@ -97,15 +97,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
+header {
+    background: url('bgimages/grains.jpg');
+    background-size: cover;
+    padding-bottom: 25%;  
+}
+#container {
+    
+}
 
 /* ==========================================================================
    Helper classes
