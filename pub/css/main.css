@@ -140,8 +140,57 @@ figcaption {
 .clearboth {
     border-bottom: 1px solid #AAAAAA;
 }
-
-
+.blocks a {
+        position: relative;
+        display: block;
+        padding-right: 100%;
+        padding-bottom: 100%;
+        text-decoration: none;
+        color: white;
+        font-size: 4em;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+.blocks img {
+        position: absolute;
+        height: 100%;
+        z-index: 5;
+        display: block;
+        box-sizing: border-box;
+        
+}
+.blocks span {
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+}
+.alltheboxes a:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 52, 150, 0.5);
+  z-index: 12;
+  transition: background 0.3s ease;
+}
+.alltheboxes a:hover:before {
+  background: rgba(255, 255, 255, 0);
+}
+.blocks a:last-child {
+    display: none;
+}
+.blocks img:last-child {
+    display: none;
+}
+.clearfix {
+    background-color: #115281;
+    color: #8C9d9a;
+}
+.clearfix img {
+    width: 5em;
+    border-radius: 50%;
+}
 
 
 /* ==========================================================================
