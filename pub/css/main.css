@@ -105,6 +105,44 @@ header {
 #container {
     
 }
+article {
+    
+}
+blockquote {
+    
+}
+#authorinfo {
+    
+}
+#authorinfo > img {
+    text-align: center;
+    width: 5em;
+    border-radius: 50%;
+}
+#authorinfo > img > p {
+    font-size: 2em;
+}
+#authorinfo ul {
+    
+}
+#authorinfo ul li {
+    
+}
+figure {
+    
+}
+figure img {
+    width: 80%;
+}
+figcaption {
+    
+}
+.clearboth {
+    border-bottom: 1px solid #AAAAAA;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
