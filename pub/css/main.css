@@ -170,24 +170,50 @@ blockquote {
     font-size: 2em;
 }
 .sociallinks {
-    
+    margin-bottom: 2em;
 }
 .sociallinks a {
     color: #ACBCC5;
     text-decoration: none;
     margin: .5em;
 }
+/* using the a tag instead of an ul and li as I used to seems to make like a bit eaiser. after practicng with both I dont really understand the different use case for each.  could you elaborate on why? It just seems like a random scenario for me to do a ul/li inline vs just a bunch of a's with the latter allowing me to get away with less typing? is that it? am I trying to read too far into this? just looking for a best practice */
 figure {
-    
 }
 figure img {
-    width: 80%;
+    width: 100%;
 }
+.overlayfig {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+/* it still seems to take me a few tries to remember that the width via  % of something is the % of its parent. therefore setting the parent to whatever percent and the internal block to 100% snaps it to the edges of the div or whatever element.  mostly typing this for torturous repition for myself but also if you had any other input about things that I could have done easier. a lot of the rules are now making perfect sense its just spending the time to perfect things as best as I can that i may have screwed up */
+
+.overlayfig:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(11, 52, 150, 0.5);
+    z-index: 9001;
+}
+
 figcaption {
-    
+    text-align: right;
+    margin-right: 10%;
+    position: relative;
+    color: #ACBCC5;
+    text-decoration: underline;
 }
 .clearboth {
     border-bottom: 1px solid #AAAAAA;
+}
+.mostpop {
+    font-size: 1.5em;
 }
 .blocks a {
         position: relative;
@@ -197,9 +223,10 @@ figcaption {
         text-decoration: none;
         color: white;
         font-size: 4em;
-        width: 100%;
+        width: 90%;
         box-sizing: border-box;
         overflow: hidden;
+        margin: .1em;
     }
 .blocks img {
         position: absolute;
@@ -214,6 +241,11 @@ figcaption {
         bottom: 0;
         z-index: 9;
 }
+/* I understand why the above is happening, I think. The image is taller than the box so it lowers it.  when I attempt to correct this through using a percent or anything else I seem to run into the same issue. how would I fix this.  I dont really get what I did to fix this but it is somehow fixed now via fiddling with other things.  leaving the comment for your input. */
+.alltheboxes {
+    margin: 0 auto;
+    width: 90%;
+}
 .alltheboxes a:before {
   position: absolute;
   content: '';
@@ -222,6 +254,8 @@ figcaption {
   background: rgba(11, 52, 150, 0.5);
   z-index: 12;
   transition: background 0.3s ease;
+}
+nav {
 }
 .alltheboxes a:hover:before {
   background: rgba(255, 255, 255, 0);
@@ -240,7 +274,18 @@ figcaption {
     width: 5em;
     border-radius: 50%;
 }
-
+footer {
+    text-align: center;
+}
+footer ul {
+    
+}
+footer ul li {
+    display: inline-block;
+    margin: .25em;
+    border-right: 1px solid #ACBCC5;
+    
+}
 
 /* ==========================================================================
    Helper classes
