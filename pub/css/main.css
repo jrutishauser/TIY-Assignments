@@ -110,10 +110,11 @@ header:before {
   height: 100%;
   background: rgba(11, 52, 150, 0.5);
 }
-header nav {
-    margin: 0 auto;
-    text-align: center;
+header span {
+    visibility: hidden;
 }
+
+
 header nav a {
     text-decoration: none;
     color: #0b3451;
@@ -209,8 +210,16 @@ figcaption {
     color: #ACBCC5;
     text-decoration: underline;
 }
+h4 {
+    display: none;
+}
+#authorinfo p {
+    display: none;
+}
+
 .clearboth {
     border-bottom: 1px solid #AAAAAA;
+    clear: both;
 }
 .mostpop {
     font-size: 1.5em;
@@ -284,6 +293,69 @@ footer ul li {
     display: inline-block;
     margin: .25em;
     border-right: 1px solid #ACBCC5;
+}
+
+/* TABLET SIZE 
+%%%%%%%%%%%%%%
+*/
+@media only screen and (min-width: 600px) {
+ 
+header nav {
+    text-align: right;
+    margin-right: 4em;
+    
+}
+header span {
+    visibility: visible;    
+}    
+.icon {
+    position: absolute;
+    top: 0;
+    left: 5em;
+}
+h1 {
+    position: absolute;
+    top: 2.5em;
+    
+}
+h2 {
+    position: absolute;
+    top 5em;
+}
+    
+    
+#container {
+    width: 80%;
+    margin: 0 auto; 
+}
+article {
+    width: 60%;
+    float: left;
+    
+}
+ #authorinfo {
+     float: left;
+     width: 35%;
+     margin-top: 3em;
+     padding-left: 5%;
+ }   
+    
+    
+.alltheboxes {
+    width: 100%;
+} 
+ .blocks a {
+     float: left;
+     padding-right: 33%;
+     padding-bottom: 33%;
+     width: 33%;
+     margin: 0;
+ }
+    .blocks span {
+        font-size: .5em;
+    }
+    
+    
     
 }
 
