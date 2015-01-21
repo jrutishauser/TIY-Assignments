@@ -98,21 +98,118 @@ textarea {
    ========================================================================== */
 
 
+table {
+    width: 50%;
+}
+
+th {
+
+}
+
+td {
+    padding-bottom: 10%;
+    width: 10%;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+
+tr:nth-child( odd ) td:nth-child(even) {
+  background-color: darkblue;
+}
+tr:nth-child( even ) td:nth-child(odd) {
+  background-color: darkblue;
+}
+
+.emptyspace {
+    padding-bottom: 10%;
+    width: 10%;
+    border: 0;
+}
+
+#A7::before {
+    content: "\265F";
+    font-size: 3em;
+    position: absolute;
+}
+#B7::before {
+    content: "\265F";
+    font-size: 3em;
+    position: absolute;
+}
+#C7::before {
+    content: "\265F";
+    font-size: 3em;
+    position: absolute;
+}
+#D7::before {
+    content: "\265F";
+    font-size: 3em;
+    position: absolute;
+}
+#E7::before {
+    content: "\265F";
+    font-size: 3em;
+    position: absolute;
+}
+#F7::before {
+    content: "\265F";
+    font-size: 3em;
+    position: absolute;
+}
+#G7::before {
+    content: "\265F";
+    font-size: 3em;
+    position: absolute;
+}
+#H7::before {
+    content: "\265F";
+    font-size: 3em;
+    position: absolute;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+#A2::before {
+    content: "\2659";
+    font-size: 3em;
+    position: absolute;
+}
+#B2::before {
+    content: "\2659";
+    font-size: 3em;
+    position: absolute;
+}
+#C2::before {
+    content: "\2659";
+    font-size: 3em;
+    position: absolute;
+}
+#D2::before {
+    content: "\2659";
+    font-size: 3em;
+    position: absolute;
+}
+#E2::before {
+    content: "\2659";
+    font-size: 3em;
+    position: absolute;
+}
+#F2::before {
+    content: "\2659";
+    font-size: 3em;
+    position: absolute;
+}
+#G2::before {
+    content: "\2659";
+    font-size: 3em;
+    position: absolute;
+}
+#H2::before {
+    content: "\2659";
+    font-size: 3em;
+    position: absolute;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
