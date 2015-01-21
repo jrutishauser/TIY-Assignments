@@ -97,19 +97,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.square {
+    display: inline-block;
+    padding-bottom: 5%;
+  width: 5%;
+  margin: 0;
+  background-color: white;
+  border: 1px solid black; 
+  position: relative;
+}
+.row:nth-child(even) .square:nth-child(even) {
+    background-color: blue;
+}
+.row:nth-child(odd) .square:nth-child(odd) {
+    background-color: blue;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+.square span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 
 
