@@ -40,3 +40,19 @@ console.log(div(60, 10));
 assert.equal(div(10, 2), 5);
 assert.equal(div(20, 5), 4);
 
+var stringDict = [ ['one', 1], ['two', 2]
+]
+console.log(stringDict[1][0]);
+
+var stringToNumber = function (string1) {
+    for(i=0;i<stringDict.length;i++) {
+        if (stringDict[i][0] == string1) {
+        string1 = stringDict[i][1];
+        } else {
+            string1 = "banana";
+        };
+    }
+console.log(string1);
+}
+stringToNumber("one");
+
