@@ -298,3 +298,15 @@ for ( defined loop ) {
 ```javascript
 continue label // continues label
 ```
+
+### Literal: `Array` 
+
+* *symbol:* `[ ]`
+* *pronunciation:* "array", "new array"
+* *examples:*
+```javascript
+var arrayName = [];
+var arrayName = ['first', 'second', 'third', 'fourth'];
+var anotherArray = [ [1, 2], [3, 4], [4, 5]];
+```
+
