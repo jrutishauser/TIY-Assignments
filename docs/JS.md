@@ -229,3 +229,28 @@ return false;
 return x;      // ends function execution and specifies a value to be returned
 ```
 
+### for statement
+
+* _symbol_: `for ( [initialExpression]; [condition]; [incrementExpression] )`
+* _pronunciation_: "for"
+* _examples_:
+```javascript
+for ( var i = 0; i < 5; i++ ) {
+    console.log(i);
+}                      // console logs 0-4 in a line
+```
+
+### do while statement 
+
+* _symbol_:    `do -statement- while (condition);`
+* _pronunciation_: "do while"
+* _examples_:
+```javascript
+do {
+    i += 1;
+    console.log(i);
+    } while ( i < 3);
+}
+    
+              // consoles until i is no longer less than 3
+```
