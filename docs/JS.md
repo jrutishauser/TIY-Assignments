@@ -254,3 +254,47 @@ do {
     
               // consoles until i is no longer less than 3
 ```
+
+### while statement
+
+* _symbol_: `while`
+* _pronunciation_: "while"
+* _examples_:
+```javascript
+while (true)
+    console.log("hello forever") // prints forever since always true
+```
+
+### label statement
+
+* _symbol_: `label`
+* _pronunciation_: "label"
+* _examples_:
+```javascript
+markLoop:
+while (theMark = true) {
+    doSomething();          //markLoop identifies a loop
+}
+```
+
+### break statement
+
+* _symbol_: `break`
+* _pronunciation_: "break"
+* _examples_:
+```javascript
+for ( defined loop ) {
+ if ( conditions ) {
+    break
+ }
+}            // once if is met, break
+```
+
+### continue statement 
+
+* _symbol_: `continue`
+* _pronunciation_: "continue"
+* _examples_:
+```javascript
+continue label // continues label
+```
