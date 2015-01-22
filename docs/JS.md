@@ -174,3 +174,58 @@ undefined
 var x = 3;
 x++;      // x is 4
 ```
+
+### If statement 
+
+* _symbol_: `if`
+* _pronunciation_: `if`
+* _examples_:
+```javascript
+if ( 3 === 3) {
+"do this" // do this is done
+}
+```
+
+### else statement 
+
+* _symbol_: `else`
+* _pronunciation_: "else"
+* _examples_:
+```javascript
+if ( 4 === 5 ) {
+    "do this"
+} else { "do these" } // do these are done
+```
+
+### switch statement
+
+* _symbol_: `switch`
+* _pronunciation_: "switch"
+* _examples_:
+```javascript
+switch (expression) {
+   case label_1:
+      statements_1
+      [break;]
+   case label_2:
+      statements_2
+      [break;]
+   ...
+   default:
+      statements_def
+      [break;]
+}                      // if a case item matches it is run, if there is no case for the item the default is run
+```
+
+### Return statement
+
+* _symbol_: `return`
+* _pronunciation_: "return"
+* _examples_:
+```javascript
+return;
+return true;
+return false;
+return x;      // ends function execution and specifies a value to be returned
+```
+
