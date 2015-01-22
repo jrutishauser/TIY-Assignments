@@ -371,5 +371,23 @@ myArray = [2, 3, 1];
 myArray.sort()       // orders by unicode so myArray now holds [1, 2, 3]
 ```
 
+### Splice
 
+* _symbol_: `.splice()`
+* _pronunciation_: "splice"
+* _examples_:
+```javascript
+myArray = [1, 2, 3, 4, 5];
+myArray.splice(2, 1, 'ohHai');   // myArray holds [1, 2, 3, 'ohHai', 5] 4 was removed
+```
+
+### unshift
+
+* _symbol_: `.unshift()`
+* _pronunciation_: "unshift"
+* _examples_:
+```javascript
+myArray = [1, 2, 3];
+var hooray = myArray.shift(0);   // var hooray holds 3 and myArray holds [1, 2, 3]
+```
 
