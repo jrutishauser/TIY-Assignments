@@ -327,7 +327,7 @@ var popped = datArray.pop();   //popped = 4
 * _pronunciation_: "push"
 * _examples_:
 ```javascript
-myArray = [1, 2, 3]
+myArray = [1, 2, 3];
 var arrayTotal = myArray.push('4', '5')     // arrayTotal equals 5.  4 and 5 are added to the and of the array
 ```
 
@@ -337,7 +337,7 @@ var arrayTotal = myArray.push('4', '5')     // arrayTotal equals 5.  4 and 5 are
 * _pronunciation_: "length"
 * _examples_:
 ```javascript
-myArray = [1, 2, 3]
+myArray = [1, 2, 3];
 var length = myArray.length(); // length would be 3
 ```
 
@@ -347,8 +347,28 @@ var length = myArray.length(); // length would be 3
 * _pronunciation_: "reverse"
 * _examples_:
 ```javascript
-myArray = [1, 2, 3]
+myArray = [1, 2, 3];
 myArray.reverse();      // myArray is now [3, 2, 1]
+```
+
+### shift 
+
+* _symbol_: `.shift()`
+* _pronunciation_: "shift"
+* _examples_:
+```javascript
+myArray = [1, 2, 3];
+var shifted = myArray.shift(); // shifted holds 1 myArray now holds [2, 3]
+```
+
+### sort
+
+* _symbol_: `.sort()`
+* _pronunciation_: "sort"
+* _examples_:
+```javascript
+myArray = [2, 3, 1];
+myArray.sort()       // orders by unicode so myArray now holds [1, 2, 3]
 ```
 
 
