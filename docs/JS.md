@@ -305,8 +305,51 @@ continue label // continues label
 * *pronunciation:* "array", "new array"
 * *examples:*
 ```javascript
-var arrayName = [];
+var arrayName = [ ];
 var arrayName = ['first', 'second', 'third', 'fourth'];
 var anotherArray = [ [1, 2], [3, 4], [4, 5]];
 ```
+
+### POP
+
+* _symbol_: `.pop()`
+* _pronunciation_: "pawp"
+* _examples_:
+```javascript
+datArray = [ 1, 2, 3, 4];
+datArray.pop();
+                                //datArray = [ 1, 2, 3]
+var popped = datArray.pop();   //popped = 4
+```
+### PUSH
+
+* _symbol_: `.push()`
+* _pronunciation_: "push"
+* _examples_:
+```javascript
+myArray = [1, 2, 3]
+var arrayTotal = myArray.push('4', '5')     // arrayTotal equals 5.  4 and 5 are added to the and of the array
+```
+
+### Length
+
+* _symbol_: `.length`
+* _pronunciation_: "length"
+* _examples_:
+```javascript
+myArray = [1, 2, 3]
+var length = myArray.length(); // length would be 3
+```
+
+### reverse 
+
+* _symbol_: `.reverse()`
+* _pronunciation_: "reverse"
+* _examples_:
+```javascript
+myArray = [1, 2, 3]
+myArray.reverse();      // myArray is now [3, 2, 1]
+```
+
+
 
