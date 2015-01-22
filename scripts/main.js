@@ -47,18 +47,17 @@ var stringDict = [ ['one', 1], ['two', 2], ['three', 3], ['four', 4], ['five', 5
 
 var stringToNumber = function (string1, string2) {
     for ( var i = 0; i < stringDict.length; i++ ) {
-        if (stringDict[i][0] == string1) {
+        if (stringDict[i][0] === string1.toLowerCase()) {
         var firstNumber = stringDict[i][1];
         }
         };
-    console.log(firstNumber)
     for ( var i = 0; i < stringDict.length; i++ ) {
-        if (stringDict[i][0] == string2 ) {
+        if (stringDict[i][0] === string2.toLowerCase() ) {
             var secondNumber = stringDict[i][1];
-        }
+        } 
     };
-    console.log(secondNumber)
-    }
+    return firstNumber + secondNumber;
+    } 
     
-stringToNumber("seventeen", "eighteen");
+console.log(stringToNumber("ONE", "twentY"));
 
