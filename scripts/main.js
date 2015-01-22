@@ -3,9 +3,9 @@ var assert = require('assert');
 function add(A, B) {
     return A + B;
 }
-console.log(add(1, 2))
+console.log(add(1, 2));
 
-assert.equal(add(1, 2), 3)
+assert.equal(add(1, 2), 3);
 
 function diff(A, B) {
     
@@ -13,13 +13,13 @@ function diff(A, B) {
 
 }
 
-console.log(diff(10, 3))
+console.log(diff(10, 3));
 
-assert.equal(diff(6, 3), 3)
+assert.equal(diff(6, 3), 3);
 
-assert.equal(diff(7, 3), 4)
+assert.equal(diff(7, 3), 4);
 
-function prod(A, B){
+function prod(A, B) {
     return A * B;
 }
 
@@ -39,3 +39,4 @@ console.log(div(60, 10));
 
 assert.equal(div(10, 2), 5);
 assert.equal(div(20, 5), 4);
+
