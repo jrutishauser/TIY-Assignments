@@ -33,3 +33,4 @@ moveMe(7, 7, 7, 6);
 moveMe(4, 2, 4, 4);
 moveMe(6, 8, 7, 7);
 moveMe(6, 1, 5, 2);
+moveMe(7, 8, 6, 6);
