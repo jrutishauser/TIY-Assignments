@@ -9,12 +9,14 @@ var board = [
     ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
 ];
 
+console.log(board);
+
 
 var printBoard = function () {
     console.log(board.join('\n') + '\n\n');
 };
 
-printBoard(); // printBoard is a function that takes no arguments since it just prints a board from the array
+ printBoard();// printBoard is a function that takes no arguments since it just prints a board from the array
 
 var moveMe = function (fromX, fromY, toX, toY) {
     fromX = fromX - 1;
