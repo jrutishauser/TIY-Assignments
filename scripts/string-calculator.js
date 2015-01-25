@@ -17,3 +17,5 @@ for ( var i=0; i <= 10; i++ ) {
     } // close j loop
 } // close i loop
 
+//  121)  should add ten and ten:
+ //    TypeError: Cannot read property '0' of undefined -- @@@@ Why am I getting this error???!
