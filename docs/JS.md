@@ -469,4 +469,15 @@ var roots = numbers.map(Math.sqrt);
 }); //                                    returns 10
 ```
 
+### reduce right 
+
+* _symbol_: `.reduceRight()`
+* _pronunciation_: "applies a function against an accumulator and each value of the array from right to left. has to reduce it to a single value"
+* _examples_:
+```javascript
+[0, 1, 2, 3, 4].reduceRight(function(previousValue, currentValue, index, array) {
+  return previousValue + currentValue;
+});             // returns 10
+```
+
 
