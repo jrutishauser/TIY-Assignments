@@ -1,14 +1,11 @@
-var datArray = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+var datArray = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 
 var toEnglish = function (number) {
-    number = number.toString();
-    for ( var i = 0; i <= number.length; i++ ) {
-        var newNumber = datArray[number[i]];
-        console.log(datArray[number[i]]);
-        newNumber = newNumber + newNumber;
-    }
-    console.log(number);
-    console.log(newNumber);
-    return newNumber;
+  number = number.toString();
+  var newNumber = "";
+  for ( var i = 0; i < number.length; i++ ) {
+    newNumber += datArray[number[i]];
+  }
+  return newNumber;
 }
-toEnglish(3124);
+console.log(toEnglish(1234));
