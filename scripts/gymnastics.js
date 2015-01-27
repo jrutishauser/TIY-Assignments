@@ -7,14 +7,14 @@ var assert = require('assert');
 
 function answer() {
     return {
-        'total': events.length
-    }
+        'total': events.length,
+    };
 }
 console.log(answer());
 
 
 
-describe('the setup', function() {
+describe('the setup', function () {
 
 it('should have events', function () {
 assert(events);
@@ -23,7 +23,6 @@ it('should have an `answer` function', function () {
 assert(answer);
 assert(typeof answer == 'function');
 });
-
 });
 
 describe('the answer',  function () {
