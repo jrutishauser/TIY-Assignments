@@ -11,13 +11,12 @@ function plus(A, B){
         }
     }
     for (var j = 0; j <= stringDict.length; j++ ) {
-        if (A == stringdict[j][0] ) {
+        if (B == stringDict[j][0] ) {
             var secondNumber = stringDict[j][1];
             break;
         }
     }
     return firstNumber + secondNumber;
-    console.log(firstNumber);
-    console.log(secondNumber);
-console.log(plus ("one", "three"));
 }
+console.log(plus ("one", "three"));
+
