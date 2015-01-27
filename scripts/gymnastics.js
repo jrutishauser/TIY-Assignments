@@ -15,6 +15,7 @@ function answer () {
         }
     };
 }
+
 console.log(answer());
 console.log(events.length);
 var theAnswer = answer();
