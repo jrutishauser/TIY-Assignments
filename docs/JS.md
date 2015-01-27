@@ -391,3 +391,82 @@ myArray = [1, 2, 3];
 var hooray = myArray.shift(0);   // var hooray holds 3 and myArray holds [1, 2, 3]
 ```
 
+### forEach()
+
+* _symbol_: `.forEach`
+* _pronunciation_: "executes a provided function once per array element"
+
+*callback, Function that produces an element of the new Array taking 3 arguments. currentValue, index, array.
+* _examples_:
+```javascript
+function logArrayElements(element, index, array) {
+  console.log('a[' + index + '] = ' + element);
+}
+
+// Note ellision, there is no member at 2 so it isn't visited
+[2, 5, , 9].forEach(logArrayElements);
+// logs:
+// a[0] = 2
+// a[1] = 5
+// a[3] = 9
+```
+### every
+
+* _symbol_: `.every()`
+* _pronunciation_: "tests whether all elements in the array pass the test implemented by the provided function"
+* _examples_:
+```javascript
+function isBigEnough(element, index, array) {
+  return element >= 10;
+}
+[12, 5, 8, 130, 44].every(isBigEnough);   // false
+[12, 54, 18, 130, 44].every(isBigEnough); // true
+```
+### some
+
+* _symbol_: `.some()`
+* _pronunciation_: "tests whether some element in the array passes the test implemented by the provided function"
+* _examples_:
+```javascript
+function isBiggerThan10(element, index, array) {
+  return element > 10;
+}
+[2, 5, 8, 1, 4].some(isBiggerThan10);  // false
+[12, 5, 8, 1, 4].some(isBiggerThan10); // true
+```
+### filter 
+
+* _symbol_: `.filter()`
+* _pronunciation_: "creates a new array with all elements that pass the test implemented by the provided function"
+* _examples_:
+```javascript
+function isBigEnough(element) {
+  return element >= 10;
+}
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+// filtered is [12, 130, 44]
+```
+
+### map 
+
+* _symbol_: `.map()`
+* _pronunciation_: "creates a new array with the results of calling a provided function on every element in the array"
+* _examples_:
+```javascript
+var numbers = [1, 4, 9];
+var roots = numbers.map(Math.sqrt);
+// roots is now [1, 2, 3], numbers is still [1, 4, 9]
+```
+
+### reduce 
+
+* _symbol_: `.reduce()`
+* _pronunciation_: "applies a function against an accumulator and each value of the array(from left to right) has to reduce it to a single value"
+* _examples_:
+```javascript
+[0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, index, array) {
+  return previousValue + currentValue;
+}); //                                    returns 10
+```
+
+
