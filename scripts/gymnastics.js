@@ -8,9 +8,23 @@ var assert = require('assert');
 function answer() {
     return {
         'total': events.length,
+        'PushEvent': {
+            'total': 0,
+            'perDay': 0,
+            
+        }
     };
 }
 console.log(answer());
+
+var index = 0;
+var numberOfPushEvents = 0;
+
+var PushEvents = events.filter(function(item) {
+    return item..type == 'PushEvent';
+});
+
+
 
 
 
