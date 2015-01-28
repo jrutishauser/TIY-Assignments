@@ -20,7 +20,14 @@ function answer () {
     var issuesEvent = events.filter(function(item){
         return item.type == 'IssuesEvent';
     });
-
+    var thoseDamnDates = []
+    for (var prop in pushEvents) {
+        if (prop == "created_at") {
+        thoseDamnDates.push(obj[prop]);
+    }}
+    
+    console.log(thoseDamnDates);
+    
     return { 
     'total': events.length,
     'PushEvent': {
@@ -42,6 +49,7 @@ function answer () {
         'total': issuesEvent.length,
     }
     };
+
 }
 console.log(answer());
 
