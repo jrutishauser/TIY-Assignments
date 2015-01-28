@@ -5,9 +5,7 @@ function answer () {
     var pushEvents = events.filter(function(item){
         return item.type == 'PushEvent';
     });
-    var days = events.filter(function(item){
-        return item.type == 'updated_at';
-    });
+
     return { 
     'total': events.length,
     'PushEvent': {

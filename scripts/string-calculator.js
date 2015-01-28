@@ -1,25 +1,32 @@
 var assert = require('assert');
 
-var stringDict = [ ["zero", 0], ['one', 1], ['two', 2], ['three', 3], ['four', 4], ['five', 5], ['six', 6], ['seven', 7], ['eight', 8], ['nine', 9], ['ten', 10], ['eleven', 11], ['twelve', 12], ['thirteen', 13], ['fourteen', 14], ['fifteen', 15], ['sixteen', 16], ['seventeen', 17], ['eighteen', 18], ['nineteen', 19], ['twenty', 20]
-]
-
-
-function plus(A, B){
-    for (var i = 0; i <= stringDict.length; i++ ) {
-        if (A == stringDict[i][0] ) {
-            var firstNumber = stringDict[i][1];
-            break;
-        }
-    }
-    for (var j = 0; j <= stringDict.length; j++ ) {
-        if (B == stringDict[j][0] ) {
-            var secondNumber = stringDict[j][1];
-            break;
-        }
-    }
-    return firstNumber + secondNumber;
+var numbersDict = {
+    'zero': 0,
+    'one': 1,
+    'two': 2,
+    'three': 3,
+    'four': 4,
+    'five': 5,
+    'six': 6,
+    'seven': 7,
+    'eight': 8,
+    'nine': 9,
+    'ten': 10,
+    'eleven': 11,
+    'twelve': 12,
+    'thirteen': 13,
+    'fourteen': 14,
+    'fifteen': 15,
+    'sixteen': 16,
+    'seventeen': 17,
+    'eighteen': 18,
+    'nineteen': 19,
+    'twenty': 20
 }
-console.log(plus ("twenty", "fourteen"));
+function plus(A, B){
+    return numbersDict[A] + numbersDict[B];
+}
+console.log(plus("twenty", "fourteen"));
 
 it('should add two strings, "five" and "six" and return a number', function () {
     assert.equal(plus("five", "six"), 11);
