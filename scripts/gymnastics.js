@@ -20,11 +20,10 @@ function answer () {
     var issuesEvent = events.filter(function(item){
         return item.type == 'IssuesEvent';
     });
-    var thoseDamnDates = []
-    for (var prop in pushEvents) {
-        if (prop == "created_at") {
-        thoseDamnDates.push(obj[prop]);
-    }}
+
+    var thoseDamnDates = pushEvents(function(event)) {
+        return created_at;
+    }
     
     console.log(thoseDamnDates);
     
