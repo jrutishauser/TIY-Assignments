@@ -5,17 +5,46 @@ function answer () {
     var pushEvents = events.filter(function(item){
         return item.type == 'PushEvent';
     });
+    var pullRequests = events.filter(function(item){
+        return item.type == 'PullRequestEvent';
+    });
+    var issueComment = events.filter(function(item){
+        return item.type == 'IssueCommentEvent';
+    });
+    var createEvent = events.filter(function(item){
+        return item.type == 'CreateEvent';
+    });
+    var deleteEvent = events.filter(function(item){
+        return item.type == 'DeleteEvent';
+    });
+    var issuesEvent = events.filter(function(item){
+        return item.type == 'IssuesEvent';
+    });
 
     return { 
     'total': events.length,
     'PushEvent': {
         'total': pushEvents.length,
-        }
+        },
+    'PullRequestEvent': {
+        'total': pullRequests.length,
+    },
+    'IssueCommentEvent': {
+        'total': issueComment.length,
+    },
+    'CreateEvent': {
+        'total': createEvent.length,
+    },
+    'DeleteEvent': {
+        'total': deleteEvent.length,
+    },
+    'IssuesEvent': {
+        'total': issuesEvent.length,
+    }
     };
 }
-
 console.log(answer());
-console.log(events.length);
+
 var theAnswer = answer();
 
 it('should have events', function () {
