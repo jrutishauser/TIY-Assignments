@@ -7,15 +7,15 @@ function print(board){
 
   _.forEach(board, function(row, rank){
         
-
         console.log("<tr>");
-        
+
       // Before any cells are printed...
 
       _.forEach(row, function(square, file){
 
 
-        console.log("<td></td>");
+            console.log("<td></td>");
+
 
           
           // In here, we have `rank`, `file`, and `square`...
@@ -31,4 +31,10 @@ function print(board){
 
 } // END print
 
-console.log(print({row: 8, square: 8}));
+console.log(print(
+    
+    {board : { rank: { file: 8}}} 
+             
+
+));
+
