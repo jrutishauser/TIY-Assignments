@@ -31,5 +31,5 @@ function print(board){
 
 } // END print
 
-print({"<tr>": {"<td>": 8}});
+print({"<tr>": {"<td>":{file:8}}});
 
