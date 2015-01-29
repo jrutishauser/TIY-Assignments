@@ -31,10 +31,5 @@ function print(board){
 
 } // END print
 
-console.log(print(
-    
-    {board : { rank: { file: 8}}} 
-             
-
-));
+print({row: { rank: {square: {file: 8}}}});
 
