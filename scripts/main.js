@@ -1,8 +1,5 @@
 var _ = require('lodash');
 
-var row = [ "<tr>", "</tr>"];
-
-var square = [ "<td>", "</td>"]
 
 function print(board){
   // Before any rows are printed, print the `<table>`...
@@ -18,7 +15,7 @@ function print(board){
       _.forEach(row, function(square, file){
 
 
-        console.log("<td>");
+        console.log("<td></td>");
 
           
           // In here, we have `rank`, `file`, and `square`...
@@ -34,4 +31,4 @@ function print(board){
 
 } // END print
 
-console.log(print({8: "<tr>", rank: 8, square: 5, file: 2}));
+console.log(print({row: 8, square: 8}));
