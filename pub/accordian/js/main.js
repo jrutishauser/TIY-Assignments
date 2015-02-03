@@ -4,10 +4,9 @@
 var clickToShow = function () {
 	if (this.nextElementSibling.className === 'open'){
 		this.nextElementSibling.remove('open');
-	} else {
-
+	} else if (this.nextElementSibling.className != 'open') {
 	this.nextElementSibling.className = 'open';
-	}
+	} 
 }; 
 
 var articleHeadings = document.getElementsByTagName('h3');
