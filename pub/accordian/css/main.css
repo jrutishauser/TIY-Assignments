@@ -136,14 +136,35 @@ h3 a:active:before {
 
 }
 
-
-
-
-
-
-
 h3 + article {
 	display: none;
+}
+h4 {
+	margin-left: 5em;
+}
+h4 > a {
+	text-decoration: none;
+	color: #4399CE;
+
+}
+
+h4 a:before {
+	content: '\2192';
+	padding-right: 0.5em;
+	width: 1em;
+	display: inline-block;
+	color: #DDD;
+}
+
+
+h4 a:hover:before {
+	content: '\2198';
+	width: 1em;
+	color: #4399CE;
+}
+h4 + article {
+	display: none;
+	margin-left: 5em;
 }
 
 .open {
