@@ -117,7 +117,7 @@ h3 > a {
 }
 
 h3 a:before {
-	content: '\2799';
+	content: '\2192';
 	padding-right: 0.5em;
 	width: 1em;
 	display: inline-block;
@@ -126,9 +126,16 @@ h3 a:before {
 
 
 h3 a:hover:before {
-	content: '\2798';
+	content: '\2198';
 	width: 1em;
 }
+
+
+
+
+
+
+
 
 h3 + article {
 	display: none;
