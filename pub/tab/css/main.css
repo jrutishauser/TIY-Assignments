@@ -120,7 +120,7 @@ section {
 	display: none;
 }
 .show {
-	display: default;
+	display: block;
 }
 
 
