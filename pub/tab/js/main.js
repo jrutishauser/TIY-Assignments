@@ -9,6 +9,13 @@ var firstFunc = function () {
 	five.className = 'hide';
 };
 
+var secFunc = function () {
+	one.className = 'show';
+	two.className = 'hide';
+	three.className = 'hide';
+	four.className = 'hide';
+	five.className = 'hide';
+};
 
 
 var one = document.getElementById('firstSec');
@@ -24,7 +31,7 @@ var lFour = document.getElementById('pageFour');
 var lFive = document.getElementById('pageFive');
 
 lTwo.onclick = firstFunc;
-
+lOne.onclick = secFunc; 
 
 
 
