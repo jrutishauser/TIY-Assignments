@@ -108,12 +108,12 @@ h3 {
 	border-bottom: 1px solid gray;
 	padding-bottom: 1ex;
 	font-size: 2em;
-
 }
 
 h3 > a {
 	text-decoration: none;
-	color: blue;
+	color: #4399CE;
+
 }
 
 h3 a:before {
@@ -121,13 +121,14 @@ h3 a:before {
 	padding-right: 0.5em;
 	width: 1em;
 	display: inline-block;
-
+	color: #DDD;
 }
 
 
 h3 a:hover:before {
 	content: '\2198';
 	width: 1em;
+	color: #4399CE;
 }
 
 
