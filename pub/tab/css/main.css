@@ -116,8 +116,12 @@ section {
 }
 
 
-
-
+#secSec, #thirdSec, #fourthSec, #fifthSec {
+	display: none;
+}
+.show {
+	display: default;
+}
 
 
 
