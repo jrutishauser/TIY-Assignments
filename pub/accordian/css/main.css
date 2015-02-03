@@ -130,7 +130,11 @@ h3 a:hover:before {
 	width: 1em;
 	color: #4399CE;
 }
+h3 a:active:before {
+	content: '\2193';
+	color: #DDD;
 
+}
 
 
 
