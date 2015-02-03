@@ -97,6 +97,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+nav {
+	width: 60%;
+	margin: 10em auto 2em auto;
+}
+
+nav a {
+	display: inline;
+	font-size: 2em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	text-decoration: none;
+}
+
+section {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+
 
 
 
