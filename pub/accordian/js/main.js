@@ -3,10 +3,10 @@
 
 var clickToShow = function () {
 	if (this.nextElementSibling.className === 'open'){
-		this.nextElementSibling.remove('open');
+		this.nextElementSibling.className = '';
 	} else if (this.nextElementSibling.className != 'open') {
 	this.nextElementSibling.className = 'open';
-	} 
+	} else {}
 }; 
 
 var articleHeadings = document.getElementsByTagName('h3');
