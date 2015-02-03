@@ -116,7 +116,7 @@ section {
 }
 
 
-#secSec, #thirdSec, #fourthSec, #fifthSec {
+.hide {
 	display: none;
 }
 .show {

@@ -17,7 +17,16 @@ var lThree = document.getElementById('pageThree');
 var lFour = document.getElementById('pageFour');
 var lFive = document.getElementById('pageFive');
 
+lTwo.onclick = firstFunc;
 
+var firstFunc = function () {
+	one.className += 'hide';
+	two.className += 'show';
+	three.className += 'hide';
+	four.className += 'hide';
+	five.className += 'hide';
+	alert('at least the function ran');
+};
 
 
 
