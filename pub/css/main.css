@@ -98,78 +98,11 @@ textarea {
    ========================================================================== */
 
 
-#container {
-	width: 60%;
-	margin: 0 auto;
-}
 
 
-h3 {
-	border-bottom: 1px solid gray;
-	padding-bottom: 1ex;
-	font-size: 2em;
-}
-
-h3 > a {
-	text-decoration: none;
-	color: #4399CE;
-
-}
-
-h3 a:before {
-	content: '\2192';
-	padding-right: 0.5em;
-	width: 1em;
-	display: inline-block;
-	color: #DDD;
-}
 
 
-h3 a:hover:before {
-	content: '\2198';
-	width: 1em;
-	color: #4399CE;
-}
-h3 a:active:before {
-	content: '\2193';
-	color: #DDD;
 
-}
-
-h3 + article {
-	display: none;
-}
-h4 {
-	margin-left: 5em;
-}
-h4 > a {
-	text-decoration: none;
-	color: #4399CE;
-
-}
-
-h4 a:before {
-	content: '\2192';
-	padding-right: 0.5em;
-	width: 1em;
-	display: inline-block;
-	color: #DDD;
-}
-
-
-h4 a:hover:before {
-	content: '\2198';
-	width: 1em;
-	color: #4399CE;
-}
-h4 + article {
-	display: none;
-	margin-left: 5em;
-}
-
-.open {
-	display: block;
-}
 
 
 
