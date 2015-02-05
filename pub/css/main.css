@@ -97,37 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body { 
-	background-color: #46A2DA;
-	color: #fff;
-}
-label {
-	display: block;
-	padding: 40px 5px 5px 2px;
-	font-size: 1.1em;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
 
 
 
-input, textarea, select {
-	line-height: 1.5;
-	font-size: 1.4em;
-	padding: 5px 10px;
-	color: #fff;
-	display:block;
-	width: 100%;
-	background: transparent;
-	border: 3px solid #fff;
-}
 
-h2 {
-	margin-bottom: 2em;
-}
-placeholder {
-	color: #10689A;
-}
+
 
 
 
