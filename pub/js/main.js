@@ -2,8 +2,24 @@
 	'use strict';
 
     $(document).ready(function(){
-	var user = $.get('../apis/github/users/jrutishauser.json');
-	console.log(user.responseJSON);
+	jQuery.when(
+		jquery.getJSON('../apis/github/users/jrutishauser.json')
+	).done(function(json) {
+	console.log(json.login);
+	});
+
+
+
+
+
+
+
+
+
+
+
+
     });
 
+    
 })(window);
