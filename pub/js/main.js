@@ -11,11 +11,6 @@
 
 
 
-    jQuery.when(
-		jQuery.getJSON('../apis/github/users/jrutishauser.json')
-	).done(function(json) {
-	console.log(json.login);
-	});
 
 
 
