@@ -8,7 +8,7 @@
    	$('#email').html(user.email).attr('href', 'mailto:' + json.email);
    
    
-   
+ console.log(json);  
    }); 
 
 
