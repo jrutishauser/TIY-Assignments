@@ -14,7 +14,7 @@
 
    
  	$.getJSON(user.repos_url, function(repos) {
-      		console.log(repos); 
+      		console.log(repos.name); 
 	});  
    }); 
 
