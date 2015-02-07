@@ -12,7 +12,7 @@
  	$.getJSON(user.repos_url, function(repos) {
 		
 	    var repoItems = $.map(repos, function(name, i){
-	    	var listItem = $('<li></li>')
+	    	var listItem = $('<li></li>');
 		$('<h3>' + repos[i].name + '</h3>').appendTo(listItem);
 
 			return listItem;
