@@ -8,18 +8,21 @@
    	$('#email').html(user.email).attr('href', 'mailto:' + json.email);
  	$('#followers').html(user.followers);
        	$('#following').html(user.following);
-
-
-
-
    
  	$.getJSON(user.repos_url, function(repos) {
-      		console.log(repos); 
-	});  
-   }); 
+		
+	    var repoItems = $.map(repos, function(name, i){
+	    	var listItem = $('<li></li>')
+		$('<h3>' + repos[i].name + '</h3>').appendTo(listItem);
+
+			return listItem;
+	    
+	    });	
+		$('.repo-list').html(repoItems);
 
 
-
+		});  
+  	 }); 
     });
 
     
