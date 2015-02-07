@@ -4,22 +4,9 @@
     $(document).ready(function(){
 
    $.getJSON('../apis/github/users/jrutishauser.json', function(json) {
-   	console.log(json.login);
+   	var user = json;
+	console.log(user);	
    }); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
