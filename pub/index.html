@@ -7,96 +7,107 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        
         <link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-       	<link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../octicons/octicons.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-	<div class='container'>
-	
-	<div class='col-md-3'>		
-	<img src='https://octodex.github.com/images/hubot.jpg' class='hubot'>
-	<p>Jon Rutishauser</p>
-	<p>jrutishauser</p>
-	<p class='location'>Orlando, FL</p>
-	<p class='email'>jrutishauser@gmail.com</p>
-	<p class='time'>Joined on Nov 11, 2014</p>
-	
-
-	<span>4</span>
-
-	<span>1</span>
-
-	<span>6</span>
-
-	<p>Followers</p>
-
-	<p>Starred</p>
-
-	<p>Following</p>
-
-	<p>Organizations</p>
-
-	<img src='https://avatars2.githubusercontent.com/u/8798300?v=3&s=84'>
-	</div>
-
-	<div class='col-md-8'>
-	<a href='#' id='conl'>Contributions</a>
-
-	<a href='#' id='repl'>Repositories</a>
-
-	<a href='#' id='publ'>Public Activity</a>
-	<div id='con'>
-		<div>	
-	<img src='img/contrpic.png'>
-		</div>	
-	</div>
-	<div id='rep' class='hidden'>	
-	<h4 class='rep'>TIY-Assignments</h4>
-	<p class='rep'>updated too recently</p>
-	<hr class='rep'>
-	
-	<h4 class='rep'>TIY-Assignments</h4>
-	<p class='rep'>updated too recently</p>
-	<hr class='rep'>
-
-	<h4 class='rep'>TIY-Assignments</h4>
-	<p class='rep'>updated too recently</p>
-	<hr class='rep'>
-
-	<h4 class='rep'>TIY-Assignments</h4>
-	<p class='rep'>updated too recently</p>
-	<hr class='rep'>
-	</div>
-	<div id='pub' class='hidden'>
-	<ul class='pub'>
-		<li>oh look an activity had been added</li>
-		<li>seems like you were expecting something</li>
-		<li>perhaps a little bit more interesting here</li>
-		<li>I might come back and fix this, but outlook not good</p>
-	</ul>
-	</div>
-
-
-	</div>
-	</div>
-
-
-
-
-
+        <div class="container-fluid">
+            <div class='col-xs-12 col-sm-3 col-md-3'>
+                    <figure><img class='octocat img-responsive'  src='https://octodex.github.com/images/adventure-cat.png' />
+                    </figure>
+                    <figcaption>
+                        <p>The Octocat</p>
+                    </figcaption>
+                <hr>
+                    <nav>
+                        <a href="">M ejklemen@gmail.com</a><br>
+                        <a href="">B http://eklemen.github.io/</a>
+                    </nav><hr class="hidden-sm hidden-xs">
+                <div>
+                    <a href="">{{FOLLOWERS}}</a>
+                    <a href="">{{STARRED}}</a>
+                    <a href="">{{FOLLOWING}}</a>
+                </div>
+                <hr>
+                </div>
+            <div class='col-md-9'>
+                <nav role="navigation">
+                    <ul class="nav nav-tabs">
+                      <li role="presentation" class="nav active col-xs-4 col-sm-3">
+                        <a href="#A" data-toggle="tab">
+                        Contributions</a></li>
+                      <li role="presentation" class="nav col-xs-4 col-sm-3">
+                        <a href="#B" data-toggle="tab">Repositories</a></li>
+                      <li role="presentation" class="nav col-xs-4 col-sm-3">
+                        <a href="#C" data-toggle="tab">Public activity</a></li>
+                    </ul> <!-- tab decoration^ content v-->
+                    <div class='tab-content'>
+                        <div class='tab-pane fade in active' id="A">
+                            <div class='popular-repo'>
+                                <ul>
+                                    <li><a href=""><span class="octicon octicon-repo"></span>
+                                        <h3>Spoon-Knife</h3></a>
+                                        <p>Info info</p>
+                                    </li><hr>
+                                    <li><a href=""><span class="octicon octicon-repo"></span>
+                                        <h3>Hello-World</h3></a>
+                                        <p>Text text info</p></li><hr>
+                                    <li><a href=""><span class="octicon octicon-repo"></span>
+                                        <h3>hello-world</h3></a>
+                                        <p>Text text info</p></li><hr>
+                                    <li><a href=""><span class="octicon octicon-repo"></span>
+                                        <h3>octocat.github.io</h3></a>
+                                        <p>Text text info</p></li><hr>
+                                    <li><a href=""><span class="octicon octicon-repo"></span>
+                                        <h3>git-consortium</h3></a>
+                                        <p>Text text info</p></li><hr>
+                                </ul>
+                            </div>
+                        </div> <!-- TAB A contents -->
+                        <div class="tab-pane fade" id="B">
+                            <div class='repo-tab'>
+                                <ul>
+                                    <li><a href=""><h3>Spoon-Knife</h3></a>
+                                        <p>Info info</p>
+                                    </li><hr>
+                                    <li><a href=""><h3>Hello-World</h3></a><p>Text text info</p>
+                                        <p class="sub-info">Updated on <date>Sept 3, 2014</date></p>
+                                    </li><hr>
+                                    <li><a href=""><h3>hello-world</h3></a><p>Text text info</p>
+                                        <p class="sub-info">Updated on <date>July 14, 2014</date></p>
+                                    </li><hr>
+                                    <li><a href=""><h3>octocat.github.io</h3></a><p>Text text info</p>
+                                        <p class="sub-info">Updated on <date>June 20, 2014</date></p>
+                                    </li><hr>
+                                    <li><a href=""><h3>git-consortium</h3></a><p>Text text info</p>
+                                        <p class="sub-info">Updated on <date>Jan 2, 2014</date></p>
+                                    </li><hr>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>    
+<!--  end of main col          -->
+                
+        </div>  <!-- .container -->  
+        
+        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
+        
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
