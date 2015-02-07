@@ -4,7 +4,7 @@
     $(document).ready(function(){
 	var user = $.get('../apis/github/users/jrutishauser.json');
 	console.log(user);
-
+	alert(user);
     });
 
 })(window);
