@@ -9,8 +9,7 @@
  	$('#followers').html(user.followers);
        	$('#following').html(user.following);
  	$('#location').html(user.location); 
-	var dateJoined = toDateString(user.created_at);	
-	$('#joined').html(dateJoined);
+	$('#joined').html(user.created_at);
 
 
 
