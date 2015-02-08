@@ -8,7 +8,15 @@
    	$('#email').html(user.email).attr('href', 'mailto:' + json.email);
  	$('#followers').html(user.followers);
        	$('#following').html(user.following);
-   
+  
+
+
+
+
+
+
+	console.log(user);
+
  	$.getJSON(user.repos_url, function(repos) {
 		
 	    var repoItems = $.map(repos, function(name, i){
