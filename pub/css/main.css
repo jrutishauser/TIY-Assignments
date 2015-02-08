@@ -143,6 +143,12 @@ ul {
     list-style: none;
     padding-left: 1.8em;
 }
+.repo-list {
+   width: 50%;
+}
+
+
+
 
 .popular-repo ul a {
     font-size: 0.7em;
