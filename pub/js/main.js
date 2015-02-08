@@ -22,7 +22,7 @@
 		
 	    var repoItems = $.map(repos, function(name, i){
 	    	var listItem = $('<li></li>');
-		$('<a href=../../' + repos[i].name + '><h3>' + repos[i].name + '</h3></a>').appendTo(listItem);
+		$('<a href=https://github.com/jrutishauser/' + repos[i].name + '><h3>' + repos[i].name + '</h3></a>').appendTo(listItem);
 
 			return listItem;
 	    
