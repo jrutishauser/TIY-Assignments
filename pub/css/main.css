@@ -126,10 +126,6 @@ h3 {
 a + p{
     margin-left: 3em;
 }
-.popular-repo {
-    border: solid gray 2px;
-    border-radius: 1ex;
-}
 
 .popular-repo ul {
     line-height: 0.5ex
@@ -146,6 +142,7 @@ ul {
 .repo-list {
    width: 50%;
    border: 2px solid gray;
+   border-radius: 3px;
 }
 
 
