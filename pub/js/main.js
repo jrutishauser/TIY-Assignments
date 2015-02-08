@@ -3,7 +3,7 @@
 
     $(document).ready(function(){
 
-   $.getJSON('../apis/github/users/jrutishauser.json', function(json) {
+   $.getJSON('https://api.github.com/users/jrutishauser', function(json) {
    	var user = json;
    	$('#email').html(user.email).attr('href', 'mailto:' + json.email);
  	$('#followers').html(user.followers);
