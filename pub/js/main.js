@@ -8,7 +8,7 @@
    	$('#email').html(user.email).attr('href', 'mailto:' + json.email);
  	$('#followers').html(user.followers);
        	$('#following').html(user.following);
-  
+ 	$('#location').html(user.location); 
 
 
 
