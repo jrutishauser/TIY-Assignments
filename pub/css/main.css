@@ -144,7 +144,9 @@ ul {
    border: 2px solid gray;
    border-radius: 1px;
 }
-
+.repo-list li {
+   border-bottom: 1px solid gray;
+}
 
 
 
