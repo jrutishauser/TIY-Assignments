@@ -11,7 +11,8 @@
  	$('#location').html(user.location); 
 	$('#joined').html(user.created_at);
 	$('#following').html(user.following);
-
+	$('#name').html(user.name);
+	$('#login').html(user.login);
 
 
 
