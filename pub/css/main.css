@@ -148,7 +148,9 @@ ul {
    border-bottom: 1px solid gray;
 }
 
-
+.popular-rep {
+   border: 1px solid gray;
+}
 
 .popular-repo ul a {
     font-size: 0.7em;
