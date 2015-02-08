@@ -30,7 +30,7 @@
 		$('.repo-list').html(repoItems);
 
 
-		});  
+  	});  
   	 }); 
     });
 
