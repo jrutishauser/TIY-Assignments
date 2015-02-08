@@ -32,6 +32,13 @@
 
   	});  
   	 }); 
+  	$('.postme').on('click', function (clicked) {
+    	$.post('https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/258/comments?access_token=3c84a7446bee2164242eac140b985f34f13b9422', JSON.stringify({'body': $('#mytextarea').val()})), $('#mytextarea').val("");
+    	}); 
+   
+   
+   
+   
     });
 
     
