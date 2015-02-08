@@ -10,7 +10,7 @@
        	$('#following').html(user.following);
  	$('#location').html(user.location); 
 	$('#joined').html(user.created_at);
-
+	$('#following').html(user.following);
 
 
 
