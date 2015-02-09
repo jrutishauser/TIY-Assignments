@@ -97,78 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.container{
-    margin-top: 3ex;
-}
-.nav {
-    margin-bottom: 2ex;
-}
-
-.nav:selected {
-    background-color: lightblue;
-}
-
-/*
-.octocat {
-    height: 300px;
-    width: 300px;
-}
-*/
-
-.octocat {
-    max-width: 70%;
-    margin: 0 auto;
-}
-
-h3 {
-    display: inline-block;
-}
-a + p{
-    margin-left: 3em;
-}
-
-.popular-repo ul {
-    line-height: 0.5ex
-}
-
-#list-title {
-    margin-left: 0;
-    background-color: gray;
-}
-ul {
-    list-style: none;
-    padding-left: 1.8em;
-}
-.repo-list {
-   width: 50%;
-   border: 2px solid gray;
-   border-radius: 1px;
-}
-.repo-list li {
-   border-bottom: 1px solid gray;
-}
-
-.popular-rep {
-   border: 1px solid gray;
-}
-
-.popular-repo ul a {
-    font-size: 0.7em;
-}
-.popular-repo ul h3{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-figure {
-    text-align: center;
-}
 
 
-figcaption p { 
-    font-size: 2em;
-    font-weight: bolder;
-}
+
+
+
 
 
 

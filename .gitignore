@@ -2,3 +2,4 @@ node_modules
 .swp
 .swa
 .DS_Store
+bower_components
