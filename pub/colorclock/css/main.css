@@ -97,7 +97,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+#theTime {
+	color: #FF0000;
+	margin-top: 20%;
+	font-size: 4em;
+	text-align: center;
+}
 
 
 
