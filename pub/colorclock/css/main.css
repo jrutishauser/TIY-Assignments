@@ -99,12 +99,34 @@ textarea {
 
 #theTime {
 	color: #FF0000;
-	margin-top: 20%;
-	font-size: 4em;
 	text-align: center;
+	font-size: 1em;
 }
-
-
+.outline {
+	border: 2px solid gray;
+	width: 17em;
+	margin: 5em auto;
+	height: 30em;
+	border-radius: 20px;
+	background-color: black;
+	position: relative;
+}
+.phonescreen {
+	background-color: white;
+	width: 15em;
+	height: 22em;
+	margin: 4em auto;
+	border: 1px solid white;
+}
+.speaker {
+	width: 2em;
+	height: 0.3em;
+	position: absolute;
+	background-color: gray;
+	top: 2em;
+	right: 7.5em;
+	border-radius: 5px;
+}
 
 
 
