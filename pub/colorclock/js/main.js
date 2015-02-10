@@ -8,7 +8,7 @@ $(document).ready(function(){
 		var seconds = sliceMe.slice(6, 8);
 		var color = '#'+hours+minutes+seconds;
 		var bodyBgColor = $('body').css('background-color', color);
-		$('#theTime').html(hours + ' ' + minutes + ' ' + seconds);
+		$('#theTime').html(hours + ':' + minutes + ':' + seconds);
 	};
 	var sliceMe = setInterval(function(){jsTimer();}, 1000);
 
