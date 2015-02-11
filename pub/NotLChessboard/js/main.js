@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	var assert = require('chai').assert;
+
 
 	var letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
 	
@@ -15,7 +17,7 @@ $(document).ready(function() {
 	var whiteRook = new Piece('white', 'rook');
 
 
-
+assert.typeOf(whiteKing, 'object', 'whiteKing is an Object');
 
 
 });

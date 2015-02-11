@@ -1,0 +1,20 @@
+{
+  "name": "NotLChessboard",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jrutishauser/TIY-Assignments",
+  "authors": [
+    "Jon Rutishauser <jrutishauser@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chai": "~1.10.0"
+  }
+}
