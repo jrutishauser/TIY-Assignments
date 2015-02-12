@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var assert = require('chai').assert;
+var assert = require('chai').assert;
 
 
 	var letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
@@ -17,7 +17,8 @@ $(document).ready(function() {
 	var whiteRook = new Piece('white', 'rook');
 
 
-assert.typeOf(whiteKing, 'object', 'whiteKing is an Object');
 
+whiteKing.should.be.a('Object');
+assert.equal(3, 3, '3 equals 3');
 
 });
