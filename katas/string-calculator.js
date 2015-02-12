@@ -22,6 +22,10 @@ var stringDict = {
 	'twenty': 20};
 
 var convertString = function (number) {
+	if ()
+
+
+
 
 };
 
