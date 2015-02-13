@@ -21,6 +21,6 @@ var integerDict = {
 	20 : 'twenty'
 };
 
-var integToStr = function () {
-	
+var integToStr = function (integer) {
+for ()	
 };
