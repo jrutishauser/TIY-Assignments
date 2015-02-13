@@ -22,5 +22,10 @@ var integerDict = {
 };
 
 var integToStr = function (integer) {
-for ()	
+	for (var ints in integerDict) {
+		if (integer == ints) {
+			console.log(integerDict[ints]);
+	}	}
 };
+
+integToStr(5);
