@@ -24,12 +24,11 @@ var stringDict = {
 var convertString = function (number) {
 	for (var strNumber in stringDict) {
 		if (number == strNumber) {
-			console.log(stringDict[strNumber]);
+			return stringDict[strNumber];
 	}}	
-	
-
-
-
 };
 
-convertString('seven');
+var plus = function (A, B) {
+	return convertString(A) + convertString(B);
+};
+console.log(plus('three', 'seven'));
