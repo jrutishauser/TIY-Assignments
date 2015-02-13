@@ -31,4 +31,8 @@ var convertString = function (number) {
 var plus = function (A, B) {
 	return convertString(A) + convertString(B);
 };
-console.log(plus('three', 'seven'));
+var minus = function (A, B){
+	return convertString(A) - convertString(B);
+};
+
+console.log(minus('nine', 'seven'));
