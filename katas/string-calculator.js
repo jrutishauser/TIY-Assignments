@@ -22,11 +22,14 @@ var stringDict = {
 	'twenty': 20};
 
 var convertString = function (number) {
-	if ()
-
+	for (var strNumber in stringDict) {
+		if (number == strNumber) {
+			console.log(stringDict[strNumber]);
+	}}	
+	
 
 
 
 };
 
-
+convertString('seven');
