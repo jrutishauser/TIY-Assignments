@@ -19,7 +19,16 @@ var stringDict = {
 	'seventeen': 17,
 	'eighteen': 18,
 	'nineteen': 19,
-	'twenty': 20};
+	'twenty': 20,
+	'thirty': 30,
+	'fourty': 40,
+	'fifty' : 50,
+	'sixty' : 60,
+	'seventy': 70,
+	'eighty': 80,
+	'ninety': 90,
+	'hundred': 100
+};
 
 var convertString = function (number) {
 	for (var strNumber in stringDict) {
@@ -35,4 +44,4 @@ var minus = function (A, B){
 	return convertString(A) - convertString(B);
 };
 
-console.log(minus('nine', 'seven'));
+console.log(minus('twenty', 'seven'));
