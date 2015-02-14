@@ -126,6 +126,9 @@ nav {
 }
 #entirelist {
 	list-style-type: none;
+	padding: 0;
+	width: 90%;
+	margin: 0 auto;
 }
 #entirelist li:nth-child(odd) {
 	background-color: #6CBFEE;
@@ -135,9 +138,11 @@ nav {
 }
 #entirelist h3 {
 	border-bottom: 1px solid white;
+	padding-bottom: 0.5em;
 }
 #entirelist li {
-	padding: 2em;
+	padding: 1em;
+	border-radius: 5px;
 }
 
 
