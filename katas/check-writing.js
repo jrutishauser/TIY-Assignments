@@ -36,11 +36,4 @@ var integToStr = function (integer) {
 			return integerDict[ints];
 	}	}
 };
-integToStr(5);
-
-
-
-
-
-
-
+console.log(integToStr(5));
