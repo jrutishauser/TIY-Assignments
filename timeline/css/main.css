@@ -96,6 +96,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+	color: white;
+}
+
 h1 {
 	font-size: 1em;
 	color: #46A2DA;
@@ -120,11 +124,21 @@ nav {
 	width: 2em;
 	height: 2em;
 }
-
-
-
-
-
+#entirelist {
+	list-style-type: none;
+}
+#entirelist li:nth-child(odd) {
+	background-color: #6CBFEE;
+}
+#entirelist li:nth-child(even) {
+	background-color: #3494CB;
+}
+#entirelist h3 {
+	border-bottom: 1px solid white;
+}
+#entirelist li {
+	padding: 2em;
+}
 
 
 
