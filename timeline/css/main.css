@@ -111,7 +111,6 @@ h2 {
 	text-align: center;
 }
 header {
-	position: relative;
 }
 nav {
 	margin: 0 auto;
@@ -127,7 +126,7 @@ nav {
 #entirelist {
 	list-style-type: none;
 	padding: 0;
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 #entirelist li:nth-child(odd) {
@@ -143,11 +142,27 @@ nav {
 #entirelist li {
 	padding: 1em;
 	border-radius: 5px;
+	margin-top: 4em;
+}
+.datentime {
+	border: 1px solid black;
+	display: table;
+}
+#entirelist .datentime p {
+	display: block;
+	color: blue;
+}
+#entirelist .datentime time {
+	display: block;
+	color: blue;
 }
 
-
-
-
+.circleli {
+	width: 2em;
+	height: 2em;
+	border: 5px solid black;
+	border-radius: 50%;
+}
 
 
 
