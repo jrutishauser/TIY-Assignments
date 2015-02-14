@@ -106,8 +106,20 @@ h2 {
 	color: #46A2DA;
 	text-align: center;
 }
-
-
+header {
+	position: relative;
+}
+nav {
+	margin: 0 auto;
+	display: table;
+}
+.navcircle {
+	display: inline-block;	
+	border-radius: 50%;
+	border: 5px solid black;
+	width: 2em;
+	height: 2em;
+}
 
 
 
