@@ -96,8 +96,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
+h1 {
+	font-size: 1em;
+	color: #46A2DA;
+	text-align: center;
+}
+h2 {
+	font-size: 1.5em;
+	color: #46A2DA;
+	text-align: center;
+}
 
 
 
