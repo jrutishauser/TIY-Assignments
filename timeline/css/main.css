@@ -142,11 +142,13 @@ nav {
 #entirelist li {
 	padding: 1em;
 	border-radius: 5px;
-	margin-top: 4em;
+	margin-top: 7em;
+	position: relative;
 }
 .datentime {
-	border: 1px solid black;
 	display: table;
+	position: absolute;
+	top: -6em;
 }
 #entirelist .datentime p {
 	display: block;
@@ -162,6 +164,9 @@ nav {
 	height: 2em;
 	border: 5px solid black;
 	border-radius: 50%;
+	position: absolute;
+	top: -3em;
+	right: 1em;
 }
 
 
