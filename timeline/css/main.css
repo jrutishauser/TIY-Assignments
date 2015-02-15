@@ -124,6 +124,8 @@ nav {
 	height: 2em;
 	text-align: center;
 	color: #46A2DA;
+	line-height: 2em;
+	margin: 0.25em;
 }
 .navcircle:hover {
 	color: white;
@@ -154,17 +156,17 @@ nav {
 .datentime {
 	display: table;
 	position: absolute;
-	top: -5em;
+	top: -4em;
 	left: 0.25em;
 }
 #entirelist .datentime p {
-	color: blue;
+	color: lightgray;
 	margin: 0;
 	margin-bottom: -0.5em;
 }
 #entirelist .datentime time {
-	color: blue;
-	font-size: 2em;
+	color: #6CBFEE;
+	font-size: 1.5em;
 }
 .circleli {
 	width: 2.5em;
@@ -175,8 +177,13 @@ nav {
 	top: -4.5em;
 	right: 0;
 	background-color: #46A4DA;
+	text-align: center;
+	line-height: 2.5em;
 }
-
+.spacing {
+	height: 3em;
+	width: 100%;
+}
 
 /* ==========================================================================
    Helper classes
@@ -285,10 +292,52 @@ nav {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 45em) {
+#entirelist {
+	border-left: 8px solid #6CBEED;
+	padding-left: 2em;
+	width: 70%;
+}
+.circleli {
+	right: default;
+	top: -0.5em;
+	left: -4em;
+}
+.datentime {
+	top: 0;
+	left: -9em;
+}
+#entirelist li {
+	margin-top: 1em;
+}
 }
 
+@media only screen and (min-width: 55em) {
+h1 {
+	text-align: left;
+}
+h2 {
+	text-align: left;
+}		
+nav {
+	float: right;
+}		
+.fortext {
+	float: left;
+}
+header {
+	margin-bottom: 5em;
+}		
+.spacing {
+	height: 8em;
+}		
+header {
+	margin-top: 2em;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+}		
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
