@@ -2,7 +2,7 @@ var events = require('./events.json');
 
 
 var answer = function () {
-console.log(events);
+console.log(events.length);
 
 
 
