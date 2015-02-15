@@ -1,0 +1,3119 @@
+[
+  {
+    "id": "2582972394",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/helluva-ride-surfnpaddle",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-02-15T21:03:40Z"
+  },
+  {
+    "id": "2582972011",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 575254554,
+      "size": 3,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2",
+      "before": "c53d8247fa38a327686e612c8980fb092246646b",
+      "commits": [
+        {
+          "sha": "5b6ab0734dfbcac3622329714eb488bdafc0c766",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "just started with the basic layout above the 4 recent posts above the bottom container div added, header div added and a couple ohers. added lorem ipsum for the body content and the h3",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/5b6ab0734dfbcac3622329714eb488bdafc0c766"
+        },
+        {
+          "sha": "eba7b8f06d3a860a31b6dcaeaa618a33e97e8527",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "filled in a bit more body content. added the sidebar content as well as sidebar picture. just starting to style the header.  background image and text added only.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/eba7b8f06d3a860a31b6dcaeaa618a33e97e8527"
+        },
+        {
+          "sha": "fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the images to the bottom for the related posts. mostly the basic layout of the site is done. split the body content like it needs to be and dropped each with margin to where it needs to be for the most part",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T21:03:14Z"
+  },
+  {
+    "id": "2582972008",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 25,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25",
+        "id": 29340817,
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/25",
+        "diff_url": "https://github.com/jrutishauser/TIY-Assignments/pull/25.diff",
+        "patch_url": "https://github.com/jrutishauser/TIY-Assignments/pull/25.patch",
+        "issue_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/25",
+        "number": 25,
+        "state": "closed",
+        "locked": false,
+        "title": "Feature/helluva ride surfnpaddle",
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-02-15T20:56:33Z",
+        "updated_at": "2015-02-15T21:03:14Z",
+        "closed_at": "2015-02-15T21:03:14Z",
+        "merged_at": "2015-02-15T21:03:14Z",
+        "merge_commit_sha": "f2e250254aa21426b14ee28ab94f6c6eb86d1b2c",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25/commits",
+        "review_comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25/comments",
+        "review_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/25/comments",
+        "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2",
+        "head": {
+          "label": "jrutishauser:feature/helluva-ride-surfnpaddle",
+          "ref": "feature/helluva-ride-surfnpaddle",
+          "sha": "fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2",
+          "user": {
+            "login": "jrutishauser",
+            "id": 9681094,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrutishauser",
+            "html_url": "https://github.com/jrutishauser",
+            "followers_url": "https://api.github.com/users/jrutishauser/followers",
+            "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+            "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+            "repos_url": "https://api.github.com/users/jrutishauser/repos",
+            "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 27850513,
+            "name": "TIY-Assignments",
+            "full_name": "jrutishauser/TIY-Assignments",
+            "owner": {
+              "login": "jrutishauser",
+              "id": 9681094,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jrutishauser",
+              "html_url": "https://github.com/jrutishauser",
+              "followers_url": "https://api.github.com/users/jrutishauser/followers",
+              "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+              "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+              "repos_url": "https://api.github.com/users/jrutishauser/repos",
+              "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-11T02:34:56Z",
+            "updated_at": "2015-02-15T07:23:49Z",
+            "pushed_at": "2015-02-15T21:03:13Z",
+            "git_url": "git://github.com/jrutishauser/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jrutishauser/TIY-Assignments.git",
+            "clone_url": "https://github.com/jrutishauser/TIY-Assignments.git",
+            "svn_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "homepage": null,
+            "size": 17012,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 4,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jrutishauser:master",
+          "ref": "master",
+          "sha": "c53d8247fa38a327686e612c8980fb092246646b",
+          "user": {
+            "login": "jrutishauser",
+            "id": 9681094,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrutishauser",
+            "html_url": "https://github.com/jrutishauser",
+            "followers_url": "https://api.github.com/users/jrutishauser/followers",
+            "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+            "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+            "repos_url": "https://api.github.com/users/jrutishauser/repos",
+            "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 27850513,
+            "name": "TIY-Assignments",
+            "full_name": "jrutishauser/TIY-Assignments",
+            "owner": {
+              "login": "jrutishauser",
+              "id": 9681094,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jrutishauser",
+              "html_url": "https://github.com/jrutishauser",
+              "followers_url": "https://api.github.com/users/jrutishauser/followers",
+              "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+              "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+              "repos_url": "https://api.github.com/users/jrutishauser/repos",
+              "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-11T02:34:56Z",
+            "updated_at": "2015-02-15T07:23:49Z",
+            "pushed_at": "2015-02-15T21:03:13Z",
+            "git_url": "git://github.com/jrutishauser/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jrutishauser/TIY-Assignments.git",
+            "clone_url": "https://github.com/jrutishauser/TIY-Assignments.git",
+            "svn_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "homepage": null,
+            "size": 17012,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 4,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25"
+          },
+          "html": {
+            "href": "https://github.com/jrutishauser/TIY-Assignments/pull/25"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/25"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/25/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 2,
+        "review_comments": 0,
+        "commits": 3,
+        "additions": 129,
+        "deletions": 14,
+        "changed_files": 8
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T21:03:14Z"
+  },
+  {
+    "id": "2582969201",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 28105106,
+      "name": "eklemen/TIY-Assignments",
+      "url": "https://api.github.com/repos/eklemen/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/21",
+        "labels_url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/21/labels{/name}",
+        "comments_url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/21/comments",
+        "events_url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/21/events",
+        "html_url": "https://github.com/eklemen/TIY-Assignments/pull/21",
+        "id": 57675735,
+        "number": 21,
+        "title": "lotta assingments!",
+        "user": {
+          "login": "eklemen",
+          "id": 10147000,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10147000?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/eklemen",
+          "html_url": "https://github.com/eklemen",
+          "followers_url": "https://api.github.com/users/eklemen/followers",
+          "following_url": "https://api.github.com/users/eklemen/following{/other_user}",
+          "gists_url": "https://api.github.com/users/eklemen/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/eklemen/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/eklemen/subscriptions",
+          "organizations_url": "https://api.github.com/users/eklemen/orgs",
+          "repos_url": "https://api.github.com/users/eklemen/repos",
+          "events_url": "https://api.github.com/users/eklemen/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/eklemen/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-02-14T01:38:12Z",
+        "updated_at": "2015-02-15T21:00:07Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/eklemen/TIY-Assignments/pulls/21",
+          "html_url": "https://github.com/eklemen/TIY-Assignments/pull/21",
+          "diff_url": "https://github.com/eklemen/TIY-Assignments/pull/21.diff",
+          "patch_url": "https://github.com/eklemen/TIY-Assignments/pull/21.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/comments/74436677",
+        "html_url": "https://github.com/eklemen/TIY-Assignments/pull/21#issuecomment-74436677",
+        "issue_url": "https://api.github.com/repos/eklemen/TIY-Assignments/issues/21",
+        "id": 74436677,
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T21:00:07Z",
+        "updated_at": "2015-02-15T21:00:07Z",
+        "body": ":+1:   "
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T21:00:09Z"
+  },
+  {
+    "id": "2582965932",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 25,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25",
+        "id": 29340817,
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/25",
+        "diff_url": "https://github.com/jrutishauser/TIY-Assignments/pull/25.diff",
+        "patch_url": "https://github.com/jrutishauser/TIY-Assignments/pull/25.patch",
+        "issue_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/25",
+        "number": 25,
+        "state": "open",
+        "locked": false,
+        "title": "Feature/helluva ride surfnpaddle",
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-02-15T20:56:33Z",
+        "updated_at": "2015-02-15T20:56:33Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25/commits",
+        "review_comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25/comments",
+        "review_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/25/comments",
+        "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2",
+        "head": {
+          "label": "jrutishauser:feature/helluva-ride-surfnpaddle",
+          "ref": "feature/helluva-ride-surfnpaddle",
+          "sha": "fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2",
+          "user": {
+            "login": "jrutishauser",
+            "id": 9681094,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrutishauser",
+            "html_url": "https://github.com/jrutishauser",
+            "followers_url": "https://api.github.com/users/jrutishauser/followers",
+            "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+            "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+            "repos_url": "https://api.github.com/users/jrutishauser/repos",
+            "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 27850513,
+            "name": "TIY-Assignments",
+            "full_name": "jrutishauser/TIY-Assignments",
+            "owner": {
+              "login": "jrutishauser",
+              "id": 9681094,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jrutishauser",
+              "html_url": "https://github.com/jrutishauser",
+              "followers_url": "https://api.github.com/users/jrutishauser/followers",
+              "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+              "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+              "repos_url": "https://api.github.com/users/jrutishauser/repos",
+              "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-11T02:34:56Z",
+            "updated_at": "2015-02-15T07:23:49Z",
+            "pushed_at": "2015-02-15T20:55:12Z",
+            "git_url": "git://github.com/jrutishauser/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jrutishauser/TIY-Assignments.git",
+            "clone_url": "https://github.com/jrutishauser/TIY-Assignments.git",
+            "svn_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "homepage": null,
+            "size": 17012,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 5,
+            "forks": 0,
+            "open_issues": 5,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jrutishauser:master",
+          "ref": "master",
+          "sha": "c53d8247fa38a327686e612c8980fb092246646b",
+          "user": {
+            "login": "jrutishauser",
+            "id": 9681094,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrutishauser",
+            "html_url": "https://github.com/jrutishauser",
+            "followers_url": "https://api.github.com/users/jrutishauser/followers",
+            "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+            "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+            "repos_url": "https://api.github.com/users/jrutishauser/repos",
+            "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 27850513,
+            "name": "TIY-Assignments",
+            "full_name": "jrutishauser/TIY-Assignments",
+            "owner": {
+              "login": "jrutishauser",
+              "id": 9681094,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jrutishauser",
+              "html_url": "https://github.com/jrutishauser",
+              "followers_url": "https://api.github.com/users/jrutishauser/followers",
+              "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+              "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+              "repos_url": "https://api.github.com/users/jrutishauser/repos",
+              "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-11T02:34:56Z",
+            "updated_at": "2015-02-15T07:23:49Z",
+            "pushed_at": "2015-02-15T20:55:12Z",
+            "git_url": "git://github.com/jrutishauser/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jrutishauser/TIY-Assignments.git",
+            "clone_url": "https://github.com/jrutishauser/TIY-Assignments.git",
+            "svn_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "homepage": null,
+            "size": 17012,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 5,
+            "forks": 0,
+            "open_issues": 5,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25"
+          },
+          "html": {
+            "href": "https://github.com/jrutishauser/TIY-Assignments/pull/25"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/25"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/25/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/25/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/fc2d1fe59860e2641939ca3f16bbc6e8a2a561b2"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 3,
+        "additions": 129,
+        "deletions": 14,
+        "changed_files": 8
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T20:56:33Z"
+  },
+  {
+    "id": "2582964782",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/helluva-ride-surfnpaddle",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-02-15T20:55:12Z"
+  },
+  {
+    "id": "2582891966",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29",
+        "labels_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29/labels{/name}",
+        "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29/comments",
+        "events_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29/events",
+        "html_url": "https://github.com/mfees/TIY-Assignments/pull/29",
+        "id": 57742148,
+        "number": 29,
+        "title": "PR for feature/24--helluva-ride-stringcalc",
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-02-15T19:24:25Z",
+        "updated_at": "2015-02-15T19:26:47Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/29",
+          "html_url": "https://github.com/mfees/TIY-Assignments/pull/29",
+          "diff_url": "https://github.com/mfees/TIY-Assignments/pull/29.diff",
+          "patch_url": "https://github.com/mfees/TIY-Assignments/pull/29.patch"
+        },
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/293"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/comments/74432306",
+        "html_url": "https://github.com/mfees/TIY-Assignments/pull/29#issuecomment-74432306",
+        "issue_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/29",
+        "id": 74432306,
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T19:26:47Z",
+        "updated_at": "2015-02-15T19:26:47Z",
+        "body": ":+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T19:26:48Z"
+  },
+  {
+    "id": "2582832147",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 28676079,
+      "name": "mfees/TIY-Assignments",
+      "url": "https://api.github.com/repos/mfees/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/28",
+        "labels_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/28/labels{/name}",
+        "comments_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/28/comments",
+        "events_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/28/events",
+        "html_url": "https://github.com/mfees/TIY-Assignments/pull/28",
+        "id": 57738700,
+        "number": 28,
+        "title": "PR for feature/24--helluva-ride-checkwriting",
+        "user": {
+          "login": "mfees",
+          "id": 10180909,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10180909?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mfees",
+          "html_url": "https://github.com/mfees",
+          "followers_url": "https://api.github.com/users/mfees/followers",
+          "following_url": "https://api.github.com/users/mfees/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mfees/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mfees/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mfees/subscriptions",
+          "organizations_url": "https://api.github.com/users/mfees/orgs",
+          "repos_url": "https://api.github.com/users/mfees/repos",
+          "events_url": "https://api.github.com/users/mfees/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mfees/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-02-15T17:49:35Z",
+        "updated_at": "2015-02-15T18:12:42Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/mfees/TIY-Assignments/pulls/28",
+          "html_url": "https://github.com/mfees/TIY-Assignments/pull/28",
+          "diff_url": "https://github.com/mfees/TIY-Assignments/pull/28.diff",
+          "patch_url": "https://github.com/mfees/TIY-Assignments/pull/28.patch"
+        },
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/293"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/comments/74428899",
+        "html_url": "https://github.com/mfees/TIY-Assignments/pull/28#issuecomment-74428899",
+        "issue_url": "https://api.github.com/repos/mfees/TIY-Assignments/issues/28",
+        "id": 74428899,
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T18:12:42Z",
+        "updated_at": "2015-02-15T18:12:42Z",
+        "body": ":+1: \r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T18:12:42Z"
+  },
+  {
+    "id": "2582432239",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/24--helluva-ride-sites",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-02-15T07:24:57Z"
+  },
+  {
+    "id": "2582431772",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 575013943,
+      "size": 11,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "c53d8247fa38a327686e612c8980fb092246646b",
+      "before": "f7fd8a0a375229e0190319ec3ea63ee57787713c",
+      "commits": [
+        {
+          "sha": "7c837619d5d3e3c877f8ec4390d4bdc8e9deede8",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added just the html of the website.  classes and styles not applied yet.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/7c837619d5d3e3c877f8ec4390d4bdc8e9deede8"
+        },
+        {
+          "sha": "24cf39028ca95f3aa09ee415852ee217f488c71a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "h3 titles added to each list item, also add the id to the entire ordered list.  dont see the need to add class or id to any of the other items",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/24cf39028ca95f3aa09ee415852ee217f488c71a"
+        },
+        {
+          "sha": "b67cec3acb0b0260ee94450dcef1237ae6578772",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "just removed a space not necessary. also practicing dropping from my tabs in vim to the command line to commit with only one terminal window",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/b67cec3acb0b0260ee94450dcef1237ae6578772"
+        },
+        {
+          "sha": "8658f28d75c955b5be4f169bcbfb567f86f4077a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "just added some CSS style for the headings",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/8658f28d75c955b5be4f169bcbfb567f86f4077a"
+        },
+        {
+          "sha": "3899ddac3c21445c178c0601b69929685779e95a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added basic outline of the nafivation items, will come back to these later",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/3899ddac3c21445c178c0601b69929685779e95a"
+        },
+        {
+          "sha": "59dbcb448a7d2ab4d7a422e152e388a5c5aeb333",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "changed the text color to white added the bottom border for the white line.  changed the color of the boxes or list items. set the nthchild to color the even and odd boxes",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/59dbcb448a7d2ab4d7a422e152e388a5c5aeb333"
+        },
+        {
+          "sha": "794f2291be5ce021681dd0c66fd5e13bef35e209",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "rounded the conrners of the list items, adjusted the padding of the boxes, moved the h3 up a little off the border line",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/794f2291be5ce021681dd0c66fd5e13bef35e209"
+        },
+        {
+          "sha": "d0ad6cbd116baedbe6b184f632fc7d4903e9daa1",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the box with the date and time as well as a circle that will soon hold the icon for each post. basic colors and border added not positioned above li yet",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/d0ad6cbd116baedbe6b184f632fc7d4903e9daa1"
+        },
+        {
+          "sha": "4639cf5bb51269a76446f79e877946998b386fcd",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "date and time as well as circular div that will hold post icon all added and moved to about the right position",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/4639cf5bb51269a76446f79e877946998b386fcd"
+        },
+        {
+          "sha": "696525836b75db49f43c4e98026ececb33565bd1",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added rollovers to the link buttons at the top, placed the time and the icon in a slightly better position. cleaned up a few lines of CSS and HTML around those elements. started adding color to each button and icon as well as the time",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/696525836b75db49f43c4e98026ececb33565bd1"
+        },
+        {
+          "sha": "c53d8247fa38a327686e612c8980fb092246646b",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the media queries, added some new icons, added the line up the left side of the timeline.  everything is basically close-ish to where it should go for each screen resize for a total of 3.  stared mobile forst and worked out. not really a finished product but I will have to come back to this to clean it up",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/c53d8247fa38a327686e612c8980fb092246646b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T07:23:49Z"
+  },
+  {
+    "id": "2582431519",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 575013825,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/24--helluva-ride-sites",
+      "head": "c53d8247fa38a327686e612c8980fb092246646b",
+      "before": "4639cf5bb51269a76446f79e877946998b386fcd",
+      "commits": [
+        {
+          "sha": "696525836b75db49f43c4e98026ececb33565bd1",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added rollovers to the link buttons at the top, placed the time and the icon in a slightly better position. cleaned up a few lines of CSS and HTML around those elements. started adding color to each button and icon as well as the time",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/696525836b75db49f43c4e98026ececb33565bd1"
+        },
+        {
+          "sha": "c53d8247fa38a327686e612c8980fb092246646b",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the media queries, added some new icons, added the line up the left side of the timeline.  everything is basically close-ish to where it should go for each screen resize for a total of 3.  stared mobile forst and worked out. not really a finished product but I will have to come back to this to clean it up",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/c53d8247fa38a327686e612c8980fb092246646b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T07:23:15Z"
+  },
+  {
+    "id": "2582296834",
+    "type": "GollumEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "pages": [
+        {
+          "page_name": "Growth-and-Fixed-Mindset",
+          "title": "Growth and Fixed Mindset",
+          "summary": null,
+          "action": "edited",
+          "sha": "fa3114a892887f78264ee68cfd18187739d67693",
+          "html_url": "https://github.com/jrutishauser/TIY-Assignments/wiki/Growth-and-Fixed-Mindset"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-15T02:32:45Z"
+  },
+  {
+    "id": "2582281858",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28",
+        "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28/comments",
+        "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28/events",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28",
+        "id": 57711943,
+        "number": 28,
+        "title": "Feature/24  helluva ride -- katas",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-02-15T00:18:58Z",
+        "updated_at": "2015-02-15T02:01:50Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/28",
+          "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28",
+          "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28.diff",
+          "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/74400620",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/28#issuecomment-74400620",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/28",
+        "id": 74400620,
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-15T02:01:50Z",
+        "updated_at": "2015-02-15T02:01:50Z",
+        "body": ":+1: \r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-15T02:01:52Z"
+  },
+  {
+    "id": "2582204156",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574911276,
+      "size": 8,
+      "distinct_size": 8,
+      "ref": "refs/heads/feature/24--helluva-ride-sites",
+      "head": "4639cf5bb51269a76446f79e877946998b386fcd",
+      "before": "7c837619d5d3e3c877f8ec4390d4bdc8e9deede8",
+      "commits": [
+        {
+          "sha": "24cf39028ca95f3aa09ee415852ee217f488c71a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "h3 titles added to each list item, also add the id to the entire ordered list.  dont see the need to add class or id to any of the other items",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/24cf39028ca95f3aa09ee415852ee217f488c71a"
+        },
+        {
+          "sha": "b67cec3acb0b0260ee94450dcef1237ae6578772",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "just removed a space not necessary. also practicing dropping from my tabs in vim to the command line to commit with only one terminal window",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/b67cec3acb0b0260ee94450dcef1237ae6578772"
+        },
+        {
+          "sha": "8658f28d75c955b5be4f169bcbfb567f86f4077a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "just added some CSS style for the headings",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/8658f28d75c955b5be4f169bcbfb567f86f4077a"
+        },
+        {
+          "sha": "3899ddac3c21445c178c0601b69929685779e95a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added basic outline of the nafivation items, will come back to these later",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/3899ddac3c21445c178c0601b69929685779e95a"
+        },
+        {
+          "sha": "59dbcb448a7d2ab4d7a422e152e388a5c5aeb333",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "changed the text color to white added the bottom border for the white line.  changed the color of the boxes or list items. set the nthchild to color the even and odd boxes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/59dbcb448a7d2ab4d7a422e152e388a5c5aeb333"
+        },
+        {
+          "sha": "794f2291be5ce021681dd0c66fd5e13bef35e209",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "rounded the conrners of the list items, adjusted the padding of the boxes, moved the h3 up a little off the border line",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/794f2291be5ce021681dd0c66fd5e13bef35e209"
+        },
+        {
+          "sha": "d0ad6cbd116baedbe6b184f632fc7d4903e9daa1",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the box with the date and time as well as a circle that will soon hold the icon for each post. basic colors and border added not positioned above li yet",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/d0ad6cbd116baedbe6b184f632fc7d4903e9daa1"
+        },
+        {
+          "sha": "4639cf5bb51269a76446f79e877946998b386fcd",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "date and time as well as circular div that will hold post icon all added and moved to about the right position",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/4639cf5bb51269a76446f79e877946998b386fcd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T23:37:58Z"
+  },
+  {
+    "id": "2582101202",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27947597,
+      "name": "carolinapowers/TIY-Assignments",
+      "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21",
+        "labels_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21/labels{/name}",
+        "comments_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21/comments",
+        "events_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21/events",
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/21",
+        "id": 57620499,
+        "number": 21,
+        "title": "Feature 24 -- Helluva Ride",
+        "user": {
+          "login": "carolinapowers",
+          "id": 10137641,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10137641?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/carolinapowers",
+          "html_url": "https://github.com/carolinapowers",
+          "followers_url": "https://api.github.com/users/carolinapowers/followers",
+          "following_url": "https://api.github.com/users/carolinapowers/following{/other_user}",
+          "gists_url": "https://api.github.com/users/carolinapowers/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/carolinapowers/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/carolinapowers/subscriptions",
+          "organizations_url": "https://api.github.com/users/carolinapowers/orgs",
+          "repos_url": "https://api.github.com/users/carolinapowers/repos",
+          "events_url": "https://api.github.com/users/carolinapowers/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/carolinapowers/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-02-13T16:31:37Z",
+        "updated_at": "2015-02-14T21:05:33Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/pulls/21",
+          "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/21",
+          "diff_url": "https://github.com/carolinapowers/TIY-Assignments/pull/21.diff",
+          "patch_url": "https://github.com/carolinapowers/TIY-Assignments/pull/21.patch"
+        },
+        "body": "Vertical Timeline Known Issues:\r\n * [ ] Header is not responsive on medium size.\r\n * [ ] Line can cut short depending on the size of the page. \r\n\r\nPs. I did not have those issues when I created this page without bootstrap. I still have a lot to learn about this tool."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/comments/74391900",
+        "html_url": "https://github.com/carolinapowers/TIY-Assignments/pull/21#issuecomment-74391900",
+        "issue_url": "https://api.github.com/repos/carolinapowers/TIY-Assignments/issues/21",
+        "id": 74391900,
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-14T21:05:33Z",
+        "updated_at": "2015-02-14T21:05:33Z",
+        "body": ":+1: \r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-14T21:05:34Z"
+  },
+  {
+    "id": "2582007854",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/24--helluva-ride-sites",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-02-14T18:47:42Z"
+  },
+  {
+    "id": "2581565452",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24",
+        "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24/comments",
+        "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24/events",
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24",
+        "id": 57681638,
+        "number": 24,
+        "title": "two javascript katas down",
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-02-14T05:08:43Z",
+        "updated_at": "2015-02-14T05:32:12Z",
+        "closed_at": "2015-02-14T05:14:32Z",
+        "pull_request": {
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24",
+          "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24",
+          "diff_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24.diff",
+          "patch_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/74362812",
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24#issuecomment-74362812",
+        "issue_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24",
+        "id": 74362812,
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-14T05:32:12Z",
+        "updated_at": "2015-02-14T05:32:12Z",
+        "body": "theres that second one!\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-14T05:32:12Z"
+  },
+  {
+    "id": "2581562696",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/23",
+        "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/23/labels{/name}",
+        "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/23/comments",
+        "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/23/events",
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/23",
+        "id": 57561239,
+        "number": 23,
+        "title": "Feature/24  helluva ride--timeline",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-02-13T05:29:05Z",
+        "updated_at": "2015-02-14T05:26:21Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/23",
+          "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/23",
+          "diff_url": "https://github.com/johnalxndr/TIY-Assignments/pull/23.diff",
+          "patch_url": "https://github.com/johnalxndr/TIY-Assignments/pull/23.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/74362647",
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/23#issuecomment-74362647",
+        "issue_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/23",
+        "id": 74362647,
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-14T05:26:21Z",
+        "updated_at": "2015-02-14T05:26:21Z",
+        "body": ":+1: \r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-14T05:26:21Z"
+  },
+  {
+    "id": "2581557499",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/24--helluva-ride",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-02-14T05:15:34Z"
+  },
+  {
+    "id": "2581556984",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574623466,
+      "size": 15,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f7fd8a0a375229e0190319ec3ea63ee57787713c",
+      "before": "a9dcfe2f685d96ab4b0690116e5a57a18e8f9a8a",
+      "commits": [
+        {
+          "sha": "1480fcfd896d706139d5ab61487f93c8d5de7045",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "created all the folders for the structure",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/1480fcfd896d706139d5ab61487f93c8d5de7045"
+        },
+        {
+          "sha": "cd32777a2dee23db23f6f74359255437ecd7075e",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "html5 boilerplate added to each project",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/cd32777a2dee23db23f6f74359255437ecd7075e"
+        },
+        {
+          "sha": "b80f1ad6a44a78e6419398fe885ad337bfbdfcf7",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the object with the definitions of string numbers to the string calculator. created conversion function with no content",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/b80f1ad6a44a78e6419398fe885ad337bfbdfcf7"
+        },
+        {
+          "sha": "9015fc3f549ecd5d85e395ca06759c3eed81ec12",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "no start to empty function yet for conversion just setup with some notes",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/9015fc3f549ecd5d85e395ca06759c3eed81ec12"
+        },
+        {
+          "sha": "6a6b3beac53ba400f3547bcc9ffbc09fcb7df255",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "string calculator now has function to turn one number from a string into an integer 1-20",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/6a6b3beac53ba400f3547bcc9ffbc09fcb7df255"
+        },
+        {
+          "sha": "626bfa54e018efe76b176286225832f20a20330c",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "addition function added since the conversion function only has definition to 20 it obviously only works to twenty",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/626bfa54e018efe76b176286225832f20a20330c"
+        },
+        {
+          "sha": "de06f172ee00bee792404153b14da52606302a1c",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "minus function added to string calculator, again only works to twenty",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/de06f172ee00bee792404153b14da52606302a1c"
+        },
+        {
+          "sha": "ce171385e3af0f1976c84a3d4595c5cb5b9e738a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added tens of thirty, fourty, fifty ... up to 100, to dicitonary only. have not started adjusting string conversion function yet",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/ce171385e3af0f1976c84a3d4595c5cb5b9e738a"
+        },
+        {
+          "sha": "4b699e48a578f40abc0e254020f5fa75e40c9c9a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "string calculator adds and subtracts to twenty.  thinking about taking it further.  added thirty fourty and others to hundred by tens to dictionary still but havent changed any of the functions to do anything of real use or interest with those new items",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/4b699e48a578f40abc0e254020f5fa75e40c9c9a"
+        },
+        {
+          "sha": "5b10b0498cb4562ceb34cf8b8aea6ccddabcee64",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "started the checkwriting program. created dictionary that turns integers 1-20 into strings created conversion function NO contents in the function though simply declated it",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/5b10b0498cb4562ceb34cf8b8aea6ccddabcee64"
+        },
+        {
+          "sha": "5111c2d1a20f926b9b6c7ff7aa27e26912cd3feb",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "started conversion function",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/5111c2d1a20f926b9b6c7ff7aa27e26912cd3feb"
+        },
+        {
+          "sha": "5cea5294e46ac4d5b2e7348eb0ee6cff9baf5168",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "no changes just playing around with some features and exploring why the loop seems to be necessary",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/5cea5294e46ac4d5b2e7348eb0ee6cff9baf5168"
+        },
+        {
+          "sha": "19fa1e76acf7cca908586013a9e29d042ff59221",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "completed the function that converts one integer to a string number up to twenty, this value is returned to the function only, nothing is logged",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/19fa1e76acf7cca908586013a9e29d042ff59221"
+        },
+        {
+          "sha": "916b24205f83f86f037b68eca59a294bcbe215ec",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the numbers past 20 that seem necessary like, thirty, fifty, up to hundred and also thousand and million.  not sure these will be needed the same way but wrote them out so I can visually think about what I am doing",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/916b24205f83f86f037b68eca59a294bcbe215ec"
+        },
+        {
+          "sha": "f7fd8a0a375229e0190319ec3ea63ee57787713c",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "cleared bottom white space and added a console statement with the function so the returned output and be seen.  works to twenty, will go beyond that after finishing the other assignments.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/f7fd8a0a375229e0190319ec3ea63ee57787713c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T05:14:32Z"
+  },
+  {
+    "id": "2581556977",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 24,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24",
+        "id": 29315920,
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24",
+        "diff_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24.diff",
+        "patch_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24.patch",
+        "issue_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24",
+        "number": 24,
+        "state": "closed",
+        "locked": false,
+        "title": "two javascript katas down",
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-02-14T05:08:43Z",
+        "updated_at": "2015-02-14T05:14:32Z",
+        "closed_at": "2015-02-14T05:14:32Z",
+        "merged_at": "2015-02-14T05:14:32Z",
+        "merge_commit_sha": "f924bef177122de22aac7890da96cf778dd3e059",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24/commits",
+        "review_comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24/comments",
+        "review_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24/comments",
+        "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/916b24205f83f86f037b68eca59a294bcbe215ec",
+        "head": {
+          "label": "jrutishauser:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "916b24205f83f86f037b68eca59a294bcbe215ec",
+          "user": {
+            "login": "jrutishauser",
+            "id": 9681094,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrutishauser",
+            "html_url": "https://github.com/jrutishauser",
+            "followers_url": "https://api.github.com/users/jrutishauser/followers",
+            "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+            "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+            "repos_url": "https://api.github.com/users/jrutishauser/repos",
+            "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 27850513,
+            "name": "TIY-Assignments",
+            "full_name": "jrutishauser/TIY-Assignments",
+            "owner": {
+              "login": "jrutishauser",
+              "id": 9681094,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jrutishauser",
+              "html_url": "https://github.com/jrutishauser",
+              "followers_url": "https://api.github.com/users/jrutishauser/followers",
+              "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+              "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+              "repos_url": "https://api.github.com/users/jrutishauser/repos",
+              "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-11T02:34:56Z",
+            "updated_at": "2015-02-14T05:14:32Z",
+            "pushed_at": "2015-02-14T05:14:32Z",
+            "git_url": "git://github.com/jrutishauser/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jrutishauser/TIY-Assignments.git",
+            "clone_url": "https://github.com/jrutishauser/TIY-Assignments.git",
+            "svn_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "homepage": null,
+            "size": 17012,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 4,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jrutishauser:master",
+          "ref": "master",
+          "sha": "a9dcfe2f685d96ab4b0690116e5a57a18e8f9a8a",
+          "user": {
+            "login": "jrutishauser",
+            "id": 9681094,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrutishauser",
+            "html_url": "https://github.com/jrutishauser",
+            "followers_url": "https://api.github.com/users/jrutishauser/followers",
+            "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+            "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+            "repos_url": "https://api.github.com/users/jrutishauser/repos",
+            "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 27850513,
+            "name": "TIY-Assignments",
+            "full_name": "jrutishauser/TIY-Assignments",
+            "owner": {
+              "login": "jrutishauser",
+              "id": 9681094,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jrutishauser",
+              "html_url": "https://github.com/jrutishauser",
+              "followers_url": "https://api.github.com/users/jrutishauser/followers",
+              "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+              "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+              "repos_url": "https://api.github.com/users/jrutishauser/repos",
+              "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-11T02:34:56Z",
+            "updated_at": "2015-02-14T05:14:32Z",
+            "pushed_at": "2015-02-14T05:14:32Z",
+            "git_url": "git://github.com/jrutishauser/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jrutishauser/TIY-Assignments.git",
+            "clone_url": "https://github.com/jrutishauser/TIY-Assignments.git",
+            "svn_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "homepage": null,
+            "size": 17012,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 4,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24"
+          },
+          "html": {
+            "href": "https://github.com/jrutishauser/TIY-Assignments/pull/24"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/916b24205f83f86f037b68eca59a294bcbe215ec"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 1,
+        "review_comments": 0,
+        "commits": 14,
+        "additions": 1696,
+        "deletions": 46076,
+        "changed_files": 307
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-14T05:14:32Z"
+  },
+  {
+    "id": "2581553963",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 24,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24",
+        "id": 29315920,
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24",
+        "diff_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24.diff",
+        "patch_url": "https://github.com/jrutishauser/TIY-Assignments/pull/24.patch",
+        "issue_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24",
+        "number": 24,
+        "state": "open",
+        "locked": false,
+        "title": "two javascript katas down",
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-02-14T05:08:43Z",
+        "updated_at": "2015-02-14T05:08:43Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24/commits",
+        "review_comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24/comments",
+        "review_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24/comments",
+        "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/916b24205f83f86f037b68eca59a294bcbe215ec",
+        "head": {
+          "label": "jrutishauser:feature/24--helluva-ride",
+          "ref": "feature/24--helluva-ride",
+          "sha": "916b24205f83f86f037b68eca59a294bcbe215ec",
+          "user": {
+            "login": "jrutishauser",
+            "id": 9681094,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrutishauser",
+            "html_url": "https://github.com/jrutishauser",
+            "followers_url": "https://api.github.com/users/jrutishauser/followers",
+            "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+            "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+            "repos_url": "https://api.github.com/users/jrutishauser/repos",
+            "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 27850513,
+            "name": "TIY-Assignments",
+            "full_name": "jrutishauser/TIY-Assignments",
+            "owner": {
+              "login": "jrutishauser",
+              "id": 9681094,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jrutishauser",
+              "html_url": "https://github.com/jrutishauser",
+              "followers_url": "https://api.github.com/users/jrutishauser/followers",
+              "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+              "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+              "repos_url": "https://api.github.com/users/jrutishauser/repos",
+              "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-11T02:34:56Z",
+            "updated_at": "2015-02-12T16:46:43Z",
+            "pushed_at": "2015-02-14T03:58:00Z",
+            "git_url": "git://github.com/jrutishauser/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jrutishauser/TIY-Assignments.git",
+            "clone_url": "https://github.com/jrutishauser/TIY-Assignments.git",
+            "svn_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "homepage": null,
+            "size": 17012,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 5,
+            "forks": 0,
+            "open_issues": 5,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jrutishauser:master",
+          "ref": "master",
+          "sha": "a9dcfe2f685d96ab4b0690116e5a57a18e8f9a8a",
+          "user": {
+            "login": "jrutishauser",
+            "id": 9681094,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrutishauser",
+            "html_url": "https://github.com/jrutishauser",
+            "followers_url": "https://api.github.com/users/jrutishauser/followers",
+            "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+            "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+            "repos_url": "https://api.github.com/users/jrutishauser/repos",
+            "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 27850513,
+            "name": "TIY-Assignments",
+            "full_name": "jrutishauser/TIY-Assignments",
+            "owner": {
+              "login": "jrutishauser",
+              "id": 9681094,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jrutishauser",
+              "html_url": "https://github.com/jrutishauser",
+              "followers_url": "https://api.github.com/users/jrutishauser/followers",
+              "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+              "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+              "repos_url": "https://api.github.com/users/jrutishauser/repos",
+              "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-11T02:34:56Z",
+            "updated_at": "2015-02-12T16:46:43Z",
+            "pushed_at": "2015-02-14T03:58:00Z",
+            "git_url": "git://github.com/jrutishauser/TIY-Assignments.git",
+            "ssh_url": "git@github.com:jrutishauser/TIY-Assignments.git",
+            "clone_url": "https://github.com/jrutishauser/TIY-Assignments.git",
+            "svn_url": "https://github.com/jrutishauser/TIY-Assignments",
+            "homepage": null,
+            "size": 17012,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 5,
+            "forks": 0,
+            "open_issues": 5,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24"
+          },
+          "html": {
+            "href": "https://github.com/jrutishauser/TIY-Assignments/pull/24"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/24/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/24/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jrutishauser/TIY-Assignments/statuses/916b24205f83f86f037b68eca59a294bcbe215ec"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 14,
+        "additions": 1696,
+        "deletions": 46076,
+        "changed_files": 307
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-14T05:08:43Z"
+  },
+  {
+    "id": "2581522085",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/26",
+        "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/26/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/26/comments",
+        "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/26/events",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/26",
+        "id": 57677237,
+        "number": 26,
+        "title": "Feature/24  helluva ride -- vertical timeline",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-02-14T02:15:55Z",
+        "updated_at": "2015-02-14T04:06:31Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/26",
+          "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/26",
+          "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/26.diff",
+          "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/26.patch"
+        },
+        "body": "Vertical Timeline up for review.  Feedback is welcome."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/74360567",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/26#issuecomment-74360567",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/26",
+        "id": 74360567,
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-02-14T04:06:31Z",
+        "updated_at": "2015-02-14T04:06:31Z",
+        "body": ":+1: \r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-02-14T04:06:31Z"
+  },
+  {
+    "id": "2581517574",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574605468,
+      "size": 5,
+      "distinct_size": 5,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "916b24205f83f86f037b68eca59a294bcbe215ec",
+      "before": "4b699e48a578f40abc0e254020f5fa75e40c9c9a",
+      "commits": [
+        {
+          "sha": "5b10b0498cb4562ceb34cf8b8aea6ccddabcee64",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "started the checkwriting program. created dictionary that turns integers 1-20 into strings created conversion function NO contents in the function though simply declated it",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/5b10b0498cb4562ceb34cf8b8aea6ccddabcee64"
+        },
+        {
+          "sha": "5111c2d1a20f926b9b6c7ff7aa27e26912cd3feb",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "started conversion function",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/5111c2d1a20f926b9b6c7ff7aa27e26912cd3feb"
+        },
+        {
+          "sha": "5cea5294e46ac4d5b2e7348eb0ee6cff9baf5168",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "no changes just playing around with some features and exploring why the loop seems to be necessary",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/5cea5294e46ac4d5b2e7348eb0ee6cff9baf5168"
+        },
+        {
+          "sha": "19fa1e76acf7cca908586013a9e29d042ff59221",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "completed the function that converts one integer to a string number up to twenty, this value is returned to the function only, nothing is logged",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/19fa1e76acf7cca908586013a9e29d042ff59221"
+        },
+        {
+          "sha": "916b24205f83f86f037b68eca59a294bcbe215ec",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the numbers past 20 that seem necessary like, thirty, fifty, up to hundred and also thousand and million.  not sure these will be needed the same way but wrote them out so I can visually think about what I am doing",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/916b24205f83f86f037b68eca59a294bcbe215ec"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-14T03:58:00Z"
+  },
+  {
+    "id": "2580586907",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 574233691,
+      "size": 5,
+      "distinct_size": 5,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "4b699e48a578f40abc0e254020f5fa75e40c9c9a",
+      "before": "9015fc3f549ecd5d85e395ca06759c3eed81ec12",
+      "commits": [
+        {
+          "sha": "6a6b3beac53ba400f3547bcc9ffbc09fcb7df255",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "string calculator now has function to turn one number from a string into an integer 1-20",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/6a6b3beac53ba400f3547bcc9ffbc09fcb7df255"
+        },
+        {
+          "sha": "626bfa54e018efe76b176286225832f20a20330c",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "addition function added since the conversion function only has definition to 20 it obviously only works to twenty",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/626bfa54e018efe76b176286225832f20a20330c"
+        },
+        {
+          "sha": "de06f172ee00bee792404153b14da52606302a1c",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "minus function added to string calculator, again only works to twenty",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/de06f172ee00bee792404153b14da52606302a1c"
+        },
+        {
+          "sha": "ce171385e3af0f1976c84a3d4595c5cb5b9e738a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added tens of thirty, fourty, fifty ... up to 100, to dicitonary only. have not started adjusting string conversion function yet",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/ce171385e3af0f1976c84a3d4595c5cb5b9e738a"
+        },
+        {
+          "sha": "4b699e48a578f40abc0e254020f5fa75e40c9c9a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "string calculator adds and subtracts to twenty.  thinking about taking it further.  added thirty fourty and others to hundred by tens to dictionary still but havent changed any of the functions to do anything of real use or interest with those new items",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/4b699e48a578f40abc0e254020f5fa75e40c9c9a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-13T18:40:28Z"
+  },
+  {
+    "id": "2578485465",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 573376585,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "9015fc3f549ecd5d85e395ca06759c3eed81ec12",
+      "before": "cd32777a2dee23db23f6f74359255437ecd7075e",
+      "commits": [
+        {
+          "sha": "b80f1ad6a44a78e6419398fe885ad337bfbdfcf7",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "added the object with the definitions of string numbers to the string calculator. created conversion function with no content",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/b80f1ad6a44a78e6419398fe885ad337bfbdfcf7"
+        },
+        {
+          "sha": "9015fc3f549ecd5d85e395ca06759c3eed81ec12",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "no start to empty function yet for conversion just setup with some notes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/9015fc3f549ecd5d85e395ca06759c3eed81ec12"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-12T23:37:12Z"
+  },
+  {
+    "id": "2577431121",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 572967157,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/24--helluva-ride",
+      "head": "cd32777a2dee23db23f6f74359255437ecd7075e",
+      "before": "1480fcfd896d706139d5ab61487f93c8d5de7045",
+      "commits": [
+        {
+          "sha": "cd32777a2dee23db23f6f74359255437ecd7075e",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "html5 boilerplate added to each project",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/cd32777a2dee23db23f6f74359255437ecd7075e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-12T16:59:06Z"
+  },
+  {
+    "id": "2577410173",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/24--helluva-ride",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-02-12T16:52:21Z"
+  },
+  {
+    "id": "2577393796",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/21--NotLChessboard",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-02-12T16:46:55Z"
+  },
+  {
+    "id": "2577393059",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9681094,
+      "login": "jrutishauser",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrutishauser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9681094?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 572952283,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "a9dcfe2f685d96ab4b0690116e5a57a18e8f9a8a",
+      "before": "8c47d907d202b3b702f6ab38236517a6fd6816b8",
+      "commits": [
+        {
+          "sha": "457000e1dcdac856e83247df106e922f16e0c359",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "playing with chai",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/457000e1dcdac856e83247df106e922f16e0c359"
+        },
+        {
+          "sha": "a9dcfe2f685d96ab4b0690116e5a57a18e8f9a8a",
+          "author": {
+            "email": "jrutishauser@gmail.com",
+            "name": "Jon Rutishauser"
+          },
+          "message": "final before delete",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/commits/a9dcfe2f685d96ab4b0690116e5a57a18e8f9a8a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-02-12T16:46:42Z"
+  }
+]
