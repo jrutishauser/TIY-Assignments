@@ -96,22 +96,84 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-header {
-	background-image: url('../img/grains.jpg')
+
+
+.headtext {
+	position: absolute;
+	color: white;
+	top: 25%;
+	width: 100%;
 }
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 5em;
+}
+h2 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+header {
+	background-image: url('../img/grains.jpg');
+	margin: 0;
+	background-size: cover;
+	padding-bottom: 35%;
+	position: relative;
+}
+#bodycontent {
+	width: 70%;
+	margin: 0 auto;
+}
+article {
+	width: 60%;
+	float: left;
+}
+#aboutauthor {
+	width: 30%;
+	float: right;
+	text-align: center;
+	margin-top: 5em;
+}
+.authpic {
+	width: 30%;
+	border-radius: 50%;
+}
+.adpic {
+	width: 80%;
+}
+article h3 {
+	font-size: 4em;
+}
+.divider {
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.recentposts {
+	width: 100%;
+}
+.squares {
+	padding-bottom: 25%;
+	padding-right: 25%;
+	background-color: red;
+	display: inline;
+}
+.first {
+	background-image: url('../img/hydro.jpg');
+	background-size: cover;
+}
+.second {
+	background-image: url('../img/intbeer.jpg');
+	background-size: cover;
+}
+.third {
+	background-image: url('../img/liters.jpg');
+	background-size: cover;
+}
+.fourth {
+	background-image: url('../img/bottles.jpg');
+	background-size: cover;
+}
 
 
 
