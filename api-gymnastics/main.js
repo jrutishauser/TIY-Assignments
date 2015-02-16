@@ -8,6 +8,7 @@ var dateSearch = function (eventType) {
 	return _.pluck(_.filter(eventSearch(eventType)), 'created_at');
 };
 
+var PushEventDates = dateSearch('PushEvent');
 
 var answer = function () {
 console.log(events.length);
@@ -15,8 +16,7 @@ console.log(events.length);
 		'total': events.length,
 		'PushEvent': {
 			'total': eventSearch('PushEvent').length,
-			'perDay': 2	
-		}	
+			'perDay': eventSearch('PushEvent').length / (_.first(PushEventDates).substring(8, 10) -_.last(PushEventDates).substring(8, 10))}	
 	
 	
 	
@@ -25,7 +25,5 @@ console.log(events.length);
 
 };
 
-
-console.log(dateSearch('PushEvent'));
 
 console.log(answer());
