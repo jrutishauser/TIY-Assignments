@@ -7,13 +7,10 @@ var eventSearch = function (eventType) {
 var dateSearch = function (eventType) {
 	return _.pluck(_.filter(eventSearch(eventType)), 'created_at');
 };
-
 var datesTotalSample = _.pluck(events, 'created_at'); 
 var totalNumDays = _.first(datesTotalSample).substring(8,10) - 
 		_.last(datesTotalSample).substring(8,10); 
-
 var answer = function () {
-console.log(events.length);
 	return {
 		'total': events.length,
 		'PushEvent': {
@@ -30,14 +27,10 @@ console.log(events.length);
 			'perDay': eventSearch('IssueCommentEvent').length / totalNumDays},
 		'CreateEvent': {
 			'total': eventSearch('CreateEvent').length,
-			'perDay': eventSearch('CreateEvent').length / totalNumDays}	
-	
-	
+			'perDay': eventSearch('CreateEvent').length / totalNumDays},
+		'GollumEvent': {
+			'total': eventSearch('GollumEvent').length,
+			'perDay': eventSearch('GollumEvent').length / totalNumDays}	
 	};
-
-
 };
-
-console.log(datesTotalSample);
-console.log(totalNumDays);
 console.log(answer());
