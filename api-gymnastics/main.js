@@ -10,7 +10,7 @@ var dateSearch = function (eventType) {
 
 var PushEventDates = dateSearch('PushEvent');
 var DeleteEventDates = dateSearch('DeleteEvent');
-
+var PullReqDates = dateSearch('PullRequestEvent');
 
 
 var answer = function () {
@@ -24,7 +24,11 @@ console.log(events.length);
 		'DeleteEvent': {
 			'total': eventSearch('DeleteEvent').length,
 			'perDay': eventSearch('DeleteEvent').length /
-			(_.first(DeleteEventDates).substring(8, 10) - _.last(DeleteEventDates).substring(8,10))}	 
+			(_.first(DeleteEventDates).substring(8, 10) - _.last(DeleteEventDates).substring(8,10))},
+	   'PullRequestEvent': {
+	   		'total': eventSearch('PullRequestEvent').length,
+	   		'perDay': eventSearch('PullRequestEvent').length /
+	   		(_.first(PullReqDates).substring(8, 10) - _.last(PullReqDates).substring(8,10))}		
 	
 	
 	
