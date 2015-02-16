@@ -8,10 +8,13 @@ var dateSearch = function (eventType) {
 	return _.pluck(_.filter(eventSearch(eventType)), 'created_at');
 };
 
+var datesTotalSample = _.pluck(events, 'created_at'); 
+var totalNumDays = _.first(datesTotalSample).substring(8,10) - 
+		_.last(datesTotalSample).substring(8,10); 
+
 var PushEventDates = dateSearch('PushEvent');
 var DeleteEventDates = dateSearch('DeleteEvent');
 var PullReqDates = dateSearch('PullRequestEvent');
-
 
 var answer = function () {
 console.log(events.length);
@@ -37,5 +40,6 @@ console.log(events.length);
 
 };
 
-
+console.log(datesTotalSample);
+console.log(totalNumDays);
 console.log(answer());
