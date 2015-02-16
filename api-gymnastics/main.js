@@ -22,16 +22,13 @@ console.log(events.length);
 		'total': events.length,
 		'PushEvent': {
 			'total': eventSearch('PushEvent').length,
-			'perDay': eventSearch('PushEvent').length / 
-			(_.first(PushEventDates).substring(8, 10) - _.last(PushEventDates).substring(8, 10))},
+			'perDay': eventSearch('PushEvent').length / totalNumDays}, 
 		'DeleteEvent': {
 			'total': eventSearch('DeleteEvent').length,
-			'perDay': eventSearch('DeleteEvent').length /
-			(_.first(DeleteEventDates).substring(8, 10) - _.last(DeleteEventDates).substring(8,10))},
+			'perDay': eventSearch('DeleteEvent').length / totalNumDays},
 	   'PullRequestEvent': {
 	   		'total': eventSearch('PullRequestEvent').length,
-	   		'perDay': eventSearch('PullRequestEvent').length /
-	   		(_.first(PullReqDates).substring(8, 10) - _.last(PullReqDates).substring(8,10))}		
+	   		'perDay': eventSearch('PullRequestEvent').length / totalNumDays}
 	
 	
 	
