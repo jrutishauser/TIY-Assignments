@@ -155,8 +155,9 @@ article h3 {
 .squares {
 	padding-bottom: 25%;
 	padding-right: 25%;
-	background-color: red;
 	display: inline;
+	position: relative;
+	margin, padding: 0;
 }
 .first {
 	background-image: url('../img/hydro.jpg');
@@ -174,7 +175,15 @@ article h3 {
 	background-image: url('../img/bottles.jpg');
 	background-size: cover;
 }
-
+.blue {
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	padding-bottom: 26.5%;
+	display: inline;
+	opacity: 0.7;
+	margin, padding: 0;
+}
 
 
 /* ==========================================================================
