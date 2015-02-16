@@ -12,10 +12,6 @@ var datesTotalSample = _.pluck(events, 'created_at');
 var totalNumDays = _.first(datesTotalSample).substring(8,10) - 
 		_.last(datesTotalSample).substring(8,10); 
 
-var PushEventDates = dateSearch('PushEvent');
-var DeleteEventDates = dateSearch('DeleteEvent');
-var PullReqDates = dateSearch('PullRequestEvent');
-
 var answer = function () {
 console.log(events.length);
 	return {
@@ -28,8 +24,13 @@ console.log(events.length);
 			'perDay': eventSearch('DeleteEvent').length / totalNumDays},
 	   'PullRequestEvent': {
 	   		'total': eventSearch('PullRequestEvent').length,
-	   		'perDay': eventSearch('PullRequestEvent').length / totalNumDays}
-	
+	   		'perDay': eventSearch('PullRequestEvent').length / totalNumDays},
+		'IssueCommentEvent': {
+			'total': eventSearch('IssueCommentEvent').length,
+			'perDay': eventSearch('IssueCommentEvent').length / totalNumDays},
+		'CreateEvent': {
+			'total': eventSearch('CreateEvent').length,
+			'perDay': eventSearch('CreateEvent').length / totalNumDays}	
 	
 	
 	};
